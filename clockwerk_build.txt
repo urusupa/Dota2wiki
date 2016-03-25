@@ -1,0 +1,53 @@
+gank
+disablerビルド
+
+
+
+
+
+&aname(Hookshot);
+|CENTER:60|CENTER:60|CENTER:60|CENTER:60|CENTER:60|CENTER:60|CENTER:|c
+|>|>|>|>|>|>|~&size(18){Hookshot};|
+|~&attachref(image/Clockwerk_skill4.png,nolink,60x60);|~タイプ|>|&color(Red){''Active''};|>|>|LEFT:指定した地点にグラップリングデバイスを発射する。&br;途中で敵ユニットに当たるとその位置まで移動し、範囲内の敵にダメージとスタンを与える。&br;味方に当たった場合味方に飛びつく &br;強化可能: 範囲が広がり、クールダウンが減少する |
+|~|~指定|>|''地点''|~|~|~|
+|~|~対象|>|''敵ユニット''|~|~|~|
+|~Level|~消費マナ|~CD|~射程|~範囲|~効果時間|~効果|
+|~1|150|70(12)|2000|125(175)|1|100 damage|
+|~2|150|55(12)|2500|125(175)|1.5|200 damage|
+|~3|150|40(12)|3000|125(175)|2|300 damage|
+|>|>|>|>|>|>|~備考|
+|>|>|>|>|>|>|LEFT:Damage type: magical&br;Aghanim's Scepterで強化できる。効果は()内&br;味方ユニットはスタンもダメージも受けない&br;当たった敵ユニットはHookが巻戻るまで一時停止する。|
+#br
+
+
+
+
+
+Rattletrap descends from the same far-flung kindred as Sniper and Tinker, and like many of the Keen Folk, has offset his diminutive stature through the application of gadgetry and wit.
+ The son of the son of a clockmaker, Rattletrap was many years apprenticed to that trade before war rode down from the mountains and swept the plains villages free of such innocent vocations.
+  “Your new trade is battle,” his dying father told him as the village of their ancestors lay in charred and smoking ruins.
+  
+
+It is a poor tradesman who blames his tools, and Rattletrap was never one to make excuses.
+ After burying his father among the ruins of their village, he set about to transform himself into the greatest tool of warfare that any world had ever seen.
+  He vowed to never again be caught unprepared, instead using his talents to assemble a suit of powered Clockwerk armor to make the knights of other lands look like tin cans by comparison.
+   Now Rattletrap is alive with devices—a small but deadly warrior whose skills at ambush and destruction have risen to near-automated levels of efficiency.
+    An artisan of death, his mechanizations make short work of the unwary, heralding a new dawn in this age of warfare.
+     What time is it? It's Clockwerk time!
+
+
+
+http://dota2.gamepedia.com/Clockwerk?version=c31cfcc25a630c4ff7f81cd165871f14
+
+
+**余談
+
+フックがあたるとスタン巻き戻りちゅうも
+さいだいしゃていであてればスタン時間が伸びる
+
+クロックの体に当たってもスタンする
+飛行中はむてきじゃない
+サイレンス状態
+アイテム使える
+
+　werk　意味

@@ -1,0 +1,768 @@
+
+
+pubstumpビルド/aozora
+
+
+
+
+&ref(image/Salrk.png,nolink);
+ ＜ｶﾞｯｵｰﾝ！
+
+/image/item/に最新のアイテム画像があります
+
+&ref(添付ファイル名);
+&ref(image/Healing Salve.png,nolink);
+
+
+Little known to the inhabitants of the dry world, Dark Reef is a sunken prison where the worst of the sea-breed are sent for crimes against their fellows. 
+上の世界の住人達には少々知られているDark Reefという海の中に沈んでいる刑務所は、彼らの仲間に対する罪によって送られる海の中でも最悪な刑務所だ。
+
+It is a razor barbed warren full of murderous slithereen, treacherous Deep Ones, sociopathic meranths.
+それは有刺鉄線とslithereenの殺人鬼、危険な深きものども（クトゥルフ神話？）、反社会的な meranthsでいっぱいである。
+
+In this dim labyrinth, patrolled by eels and guarded by enormous anemones, only the vicious survive.
+この薄暗い迷路の中で、ウナギのパトロールと巨大イソギンチャクに守られたこの場所は悪質なもののみが生き残る。
+
+Pitched into Dark Reef for crimes unknown, Slark spent half a lifetime without kin or kindness, trusting no one, surviving through a combination of stealth and ruthlessness, keeping his thoughts and his plans to himself.
+Dark Reef内の犯罪についてはまったく知られておらず、slarkはそこで情や友なしに半生を過ごした。信じられるものは誰もおらず、彼の計画や思想を常に維持しながら、ステルスと無慈悲な行為を通して生き残ってきた。
+
+When the infamous Dark Reef Dozen plotted their ill-fated breakout, they kept their plans a perfect secret, murdering anyone who could have put the pieces together--but somehow Slark discovered their scheme and made a place for himself in it.
+Dark Reefきっての悪名高い12人ほどでこの不吉な脱獄を実行するとき、彼らはその計画を最高機密にしていた。そして、この計画を知ろうとするやつを全員殺した。しかしslarkは何とか彼らの計画を発見し、その中に自分自身のための居場所を作った。
+
+Ten of the Dozen died in the escape attempt, and two were captured, hauled back to Dark Reef, then executed for the entertainment of their fellow inmates.
+彼らのうち10人ほどその脱獄計画で死んだ、そして2人は捕まえられDark Reefに連行された。その後彼らは受刑者の娯楽のために殺された
+
+But Slark, the unsung thirteenth, used the commotion as cover and slipped away, never to be caught.
+しかし、影の13番目のメンバーであるslarkはその騒ぎに乗じて抜け出した、決して捕まらないように。
+
+Now a furtive resident of the carnivorous mangrove scrub that grips the southern reach of Shadeshore, Slark remains the only successful escape from Dark Reef.
+今slarkはShadeshoreの南方にある肉食マングローブの雑木林に密かに住んでいる。Dark Reefから脱出成功した唯一の脱獄者として。
+
+
+
+---------------------------------------------------------
+
+http://dota2.gamepedia.com/Slark
+
+
+http://www.dotafire.com/
+
+
+
+ヒーロー画像
+Slark, the Nightcrawler
+Met you once, cut you twice
+一度会えば二度切りつける
+
+
+pubstompビルド/aozora
+
+
+
+
+&ref(image/Slark.png,nolink); ''＜ｶﾞｯｵｰﾝ！''
+
+　
+&ref(image/Slark_icon.png,nolink);''Slark, the Nightcrawler''
+Met you once, cut you twice
+一度会えば二度切りつける
+
+
+RIGHT:2013/12/01、ver6.79
+
+*1 はじめに
+書いた動機は、操作が簡単なセミキャリーで初心者にもキルストリークの快感を感じてほしかったから。
+このヒーローを使ってるとcarry、ward、gankの基礎に触れることができる。
+ぜひともこのヒーローでゲームに慣れて、どんどん色々なヒーローを触ってほしいと思う。
+ヒーローやアイテムはだいたいわかるけど全部は知らないってレベルの初心者向け。
+このスキルの推奨レートは''pub Normal''なのでそこの所よろしくどうぞ。
+　
+そしてこのslarkというヒーローの魅力。
+つぶらな瞳、かわいいおてて、壮絶な半生を知ってほしい。
+追われるばかりの半生から、今は追う側に返り咲いたslarkでrampageを叩き出してほしい。
+　
+執筆中にアップデートきちゃった・・・
+浸透するまで加筆修正するつもりではあります
+すんまへんな、わしがpubstompしたせいでnerfされてしもて
+
+**1.1 slark
+基本roleはgankerとsemi-carry、公式ではescapeってなってるけどちょっと意味がよくわからない。
+文字通り逃げ性能はそうとう高いので、集団戦ではしぶとく生き残って経験値と金を得る。レーンではgankを避けてfarmしたり、逆にgankしてレベルで圧倒していく戦い方になる。
+
+&color(Green){''pros''};
+どんな時でも有用なスキルを持っている。
+''AoE''（1stskill）
+''purge''（1stskill）
+''bind''（2ndskill）
+''leap''（2ndskill）
+''buff''（3rdskill）
+''invisible''（ult）
+''heal''（ult）
+全スキルが低コスト。
+昼はもちろん夜の視界が1800ありとても広い。（他にはLunaの3番の効果だけ）
+強烈なアンチヒーローがいない。
+
+&color(Red){''cons''};
+statusが全体的に低い、agiヒーローなのにagi低すぎる。
+レベル25時点で''str64''、''agi57''、''int61''ってagiが一番低いやないかーーい！
+もちろん3rdskillでboostするのが前提の設定。
+strが低く、殴らないとagiも上がらないのでtrueダメージがクッソ痛い。
+スキルの回転が良すぎてマナがすぐ枯渇する。
+　
+　
+ちなみにdotabuffではずっと勝率51%台に位置してるので安定した強さはある。
+http://dotabuff.com/heroes/winning
+　
+pubで使うと面白いように勝てて強ヒーローのような印象をうけるが、proの試合で使われない理由は、''statusの低さ''と''早期group up''によるgankの確実さにある。
+レベル6より前から2,3人固まってgankにいくのが一般的な流れのプロシーンでは、gankメンバーの一人がslarkでは、スキル性質的にちょっと心もとないし、slarkをgankするとなればstatusの低さも相まってすぐやられちゃう。結果敵が育つ。
+そこに大きな原因がある。&color(Silver){と、思ってる。};
+triやsoloもいまいちで、ヒーロー単体で見ると何でもできて強いけど、5v5で運用するとなると器用貧乏なヒーローとなる。
+
+設定上の友人は[[&ref(image/Slardar_icon.png,nolink);>Slardar]]Slardar、[[&ref(image/Tidehunter_icon.png,nolink);>Tidehunter]]Tidehunter、[[&ref(image/Naga Siren_icon.png,nolink);>Naga Siren]]Naga Siren、水っぽいヌルヌルしたやつらとSlithereenって単語でつながってる。この辺の詳細知ってる人いたら補足お願いします。
+ライバルはinvisible持ちと暗殺者的なヒーローに確執がある。[[&ref(image/Riki_icon.png,nolink);>Riki]]Riki、[[&ref(image/Bounty Hunter_icon.png,nolink);>Bounty Hunter]]Bounty Hunter、[[&ref(image/Phantom Assassin_icon.png,nolink);>Phantom Assassin]]Phantom Assassin、この辺はslarkの生い立ちにて逃げて隠れてるってのがあるからだと思う。
+
+**1.2 pub solo q
+ソロキューでパブストンプするためには、自分でなんでもこなさないといけない。
+たとえcarryでもwardを買う必要があるかもしれない、自前でdisable持って殴りにいかないといけないかもしれない、pushもgankも全部やらないとそのmatchをownすることができない。
+その点において''slarkは自前のスキルでほとんどのroleをこなせる''能力がありとてもバランスがいいのである。
+
+**1.3 役割 
+''ganker''
+ultの足の速さとhealで常にマップ全体を駆け回り、広い視界で先手を取る。
+pubでは看破不可能なultのactiveでfreedpsを叩き出せる。
+また、gank失敗しても逃げやすい。
+スキルも粒ぞろいで''サッと殺してすぐ逃げるための一通りが揃ってる''。
+特にNightcrawler呼ばれるだけあって、夜のgankは強い、特にjukeしやすい森。
+こちらは広い視界で有利だし逃げる時もjukeすればどんどんhealthが回復する。
+木や崖が多いほどジャンプのおかげで逃げはもちろん攻めやカウンターも強い。
+　
+''semi-carry''
+gankでlevelboostと金集めて殴るための武器を集める。
+武器一個持つだけでもめちゃくちゃ強くなる。理由はスキルシナジーの関係だが詳細はアイテムビルドにて。
+また積極的なgankで敵ヒーローの成長を遅らせmatchをcarryingしていく。
+集団戦でもgankと同じく''スキルのおかげでfreedpsが出せる機会が多い''。
+3rdスキルのおかげで殴るほど強くなるから集団戦では積極的に攻めていきたい。
+
+
+
+**1.4 スキル考察
+
+前述のとおり、''各スキルには複数の効果があり''どんな場合にでも対応できる強さがある。
+しかし、優秀なスキルが低マナコストで使えるのでついつい使いすぎてしまう。
+自分のmanaマネージメントは、どんなヒーローでも出来て損することはないのでこの機会に考えみよう。
+
+***1.4.1 Dark Pact
+&ref(image/Slark_skill1.png,nolink,64x64);
+''Slithereen are capable of quickly regrowing appendages, in case of critical injury, to save their own lives.''
+命を救うために致命的なケガをした場合でも、付属器官にて再生することができる
+　
+なかなか優秀なaoeな上にpurgeまでついてるゲーム序盤から終盤まで使える超優秀なスキル。
+自分の血を生贄にほとんどのdebuffを取り除くって設定らしい。
+生贄にしているだけあってスキル発生時に自分もダメージを食らう。
+ちなみにそのダメージでdenyできる。
+発生中にslarkが死ぬとそこで波は止まる。
+　
+purgeは''万能ではない''。
+[[&ref(image/Doom Bringer_icon.png,nolink,16x16);>Doom]]Doom &ref(image/DoomBringer_skill4.png,nolink,16x16);Doom
+[[&ref(image/Axe_icon.png,nolink,16x16);>Axe]]Axe &ref(image/Axe_skill2.png,nolink,16x16);Battle Hunger
+[[&ref(image/Ancient Apparition_icon.png,nolink,16x16);>Ancient Apparition]]Ancient Apparition &ref(image/AncientApparition_skill4.png,nolink,16x16);Ice Blast
+[[&ref(image/Bloodseeker_icon.png,nolink,16x16);>Bloodseeker]]Bloodseeker &ref(image/Bloodseeker_skill4.png,nolink,16x16);Rupture
+[[&ref(image/Bane_icon.png,nolink,16x16);>Bane]]Bane &ref(image/Bane_skill1.png,nolink,16x16);Enfeeble
+[[&ref(image/Witch Doctor_icon.png,nolink,16x16);>Witch Doctor]]Witch Doctor &ref(image/WitchDoctor_skill3.png,nolink,16x16);Maledict
+[[&ref(image/item/Orb of Venom.png,nolink,22x16);>Orb of Venom]]Orb of Venom &ref(image/item/Orb of Venom.png,nolink,22x16);slow
+などはpurge不可
+　
+序盤はnuke中盤からpush終盤はpurgeメインでの使用になる。
+
+''%%%&size(30){■};スキルの発生について%%%''
+起動した1.5秒後から波が発生して0.1秒ごとにダメージとパージが発生する。
+と、いうことは0.1秒ごとに10回判定が存在するこの1秒間はdebuffほぼ無効なのである。
+スキル開始していれば最初の1.5秒間はなにをしても（死んだらダメ）スキル中断しないので、
+タイミングを合わせると敵のstunなどを無駄にさせチームのためにもなるので可能ならば狙ってpurgeしよう。
+[[&ref(image/Sven_icon.png,nolink,32x32);>Sven]]svenなんかはわかりやすくて3番でウオー！して走ってきてロケットパンチを撃つのでそのタイミングでパージすればちょろい
+[[&ref(image/Bane_icon.png,nolink,32x32);>Bane]]baneのultみたいな強烈なultもpurgeできるので夢が広がるスキルである。
+　
+しかもかっこいい
+&ref(image/Slark_skill101.jpg,nolink,394x272);
+
+
+***1.4.2 Pounce
+&ref(image/Slark_skill2.png,nolink,64x64);
+''Time in the Dark Reef made Slark a dangerous assassin; aggressive and fearless.''
+Dark Reefにいた時間はslarkを積極的かつ大胆不敵な、危険な暗殺者に変えた
+　
+''Gotcha！''
+933.33の速度で前方に飛んで距離700幅95の判定でふれた敵を捕まえる
+[[&ref(image/Force Staff.png,nolink,22x16);>Force Staff]]Force Staffより距離100多い、1ユニット分かな。
+ちなみに幅95はpugdeのフックやmiranaの槍の先っちょより小さい判定。ヒーロー足元の円が100。
+殴り合い中の0距離pounceなら問題ないが、距離700でヒットさせるコツもある。
+慣れとルーティングである。これは後述。
+　
+BKBなど''magic immuneで完全無効化される''。
+　
+ジャンプ前に放たれた攻撃は''disjoint''する。
+パッチ6.79で多くのスキルが回避可能になったので相対的なbuffとなっている。
+しかし、跳躍中にスタンとか食らっちゃうと撃ち落とされるので、initiateやescape時に注意。
+slark以外を狙うAoEスタンとかどうしようもない。
+敵ヒーローにヒットした時だけヒモをつける。つまりどんなにクリープやillusionでゴチャゴチャしてても、ヒモついてるやつは本物確定。しかし、まわりにユニットが多いほど真っ直ぐ飛びつくのは困難になる。
+着地点の木を破壊する。200x200の矩形範囲。
+　
+ヒモにつながった状態でブリンクとかされるとビヨーーンってめっちゃ伸びる。''Force Staffで普通に逃げられる''ので注意。
+敵carryをGotcha！したのにサポートのForce Staffで逃がされるとちょっとイラくる。
+ヒーロースキルでの判定はまちまちで[[&ref(image/Mirana_icon.png,nolink,32x32);>Mirana]]Miranaのleapはダメ。しっかり固定される。
+[[&ref(image/Timbersaw_icon.png,nolink,32x32);>Timbersaw]]Timbersawのチェーンでは逃げられる。金属製のチェーンにはさすがに勝てない。
+　　
+　
+''躍動感！''
+&ref(image/Slark_skill201.jpg,nolink,512x512);
+　
+　
+
+''%%%&size(30){■};ジャンプについて%%%''
+逃げ性能ももちろん優秀なこのスキル。地形無視なので崖の位置とかを意識したルートを考えられるようになると生存率が格段に上昇する。
+　
+画像参照
+&ref(image/Slark_skill202.jpg,512x512);
+画像クリックで拡大
+　
+画像の青いラインをまたぐように飛ぶと逃げやすい。
+ついでにこのライン、[[&ref(image/Force Staff.png,nolink,22x16);>Force Staff]]Force Staffでもいけるので参考にね。Force Staffは通過した木をなぎ倒すのでいまいちなルートもあります。ご注意を。
+
+
+　
+敵に紐つけて地面にナイフで固定してるのに、なぜか旋盤みたいな機械音がする。
+なんでー
+　
+&ref(image/Slark_skill208.jpg,nolink,512x512);
+　
+
+***1.4.3 Essence Shift
+&ref(image/Slark_skill3.png,nolink,64x64);
+''With each strike at his adversaries, Slark's knowledge of their weaknesses improves.''
+敵を殴るたびにslarkは彼らの弱点を学んでいく
+　
+たった1pointづつか、とお思いのそこのあなた。
+ちゃんと数値にするとその強力さがわかる。
+ 
+''一発殴るごとに''
+''敵''
+-str1は19の最大Health減少
+-agi1は0.14のアーマーダウン
+-int1は13の最大マナ減少
+
+''自分''
+-0.4のアーマー上昇
+-攻撃力3アップ
+-攻撃速度3%上昇
+
+　
+しゅごい！
+敵は殴られるたびに[[&ref(image/Iron Branch.png,nolink,22x16);>Iron Branch]]Iron Branch 53gold失う
+自分は殴るたびに[[&ref(image/Slippers of Agility.png,nolink,22x16);>Slippers of Agility]]Slippers of Agility 150gold手に入る
+　
+
+ちなみにワタクシ、最大52回まで吸い取ったことあります。
+[[&ref(image/Timbersaw_icon.png,nolink,32x32);>Timbersaw]]Timbersawと[[&ref(image/Tidehunter_icon.png,nolink);>Tidehunter]]Tidehunterと[[&ref(image/Ursa_icon.png,nolink);>Ursa]]Ursa殴ってたらそれぐらいいきました。
+agi156、Armor22、攻撃速度0.4秒、これぐらいになると40m過ぎのレイトゲームでも''Ursaと普通に殴り合える！''
+　
+ちなみにEssence ShiftのクールダウンはDotAから受け継がれたものでdota2のプレイに大した影響を与えないって公式で言っちゃってる&color(Silver){（訳まちがってたらゴメン）};
+The cooldown on Essence Shift is a holdover from the way the skill was coded in DotA, and has no practical impact in Dota 2.
+
+
+***1.4.4 Shadow Dance
+&ref(image/Slark_skill4.png,nolink,64x64);
+''The hidden Thirteenth is a slippery foe.''
+影の13番目はつるりと逃げる奴
+　
+''最重要imbaスキル''
+　
+直近のパッチでクールダウンは伸びて継戦能力は下がったけど4秒間看破不可はやはり強烈。
+CD中はfarmかpushか適当に過ごしましょう。
+ultの変更は個人的にはbuffだと思ってる。
+しかし、invisibleは看破で殺しましょうっていうdota伝統のゲームデザイン的にどうなのとは思う。
+　
+pubstompビルド的には前のultの方がよかったかも
+まず、看破って意識のない&color(Gray){（知識もない？）};pub normalではinvisible = 無敵だからね。
+　
+''&color(Red){active};''
+0.7秒のディレイがあって透明になる。
+
+煙があるから場所はばれるが、''移動や攻撃では解除されない''。
+4秒間やりたい放題なのでこの間に殴ってstatusを吸おう。
+SODから出てる僕は透明人間シリーズみたいな。
+
+追う時も逃げる時もinvisibleで敵からの視界を切れるので加速する。それもまた強力。
+　
+ちなみに、看破されずとも粉かかったままinvisibleになると移動速度が10％下がっちゃうから、healthに余裕があるなら1stskillでpurgeしよう。
+
+''&color(Green){passive};''
+敵の視界外にいる時だけ発動する。
+敵ワードや[[&ref(image/Spirit Breaker_icon.png,nolink,32x32);>Spirit Breaker]]Spirit BreakerのChargeでも無効になる。このルールはすごい重要。（後述）
+　
+regenerationと移動速度上昇がすごい。
+lv1ultでも[[&ref(image/Heart of Tarrasque.png,nolink,22x16);>Heart of Tarrasque]]Heart of Tarrasqueの秒間2％を上回る3％のregeneration。
+また移動速度上昇も強烈でこの2点がslarkのgankをさらに加速させる。
+
+アイテムをいくつか持てばultのおかげで足は522（最速）になる。
+敵から見られてなければずっとhasteって、ステキやん？
+-ultlv1 402
+-ultlv2 387
+-ultlv3 373
+
+
+最低でも移動速度がこれだけあればいいので
+（基礎移動速度305 + [[&ref(image/item/Power Treads.png,nolink,22x16);>Power Treads]]Power Treads55） [[&ref(image/item/Sange and Yasha.png,nolink,22x16);>Sange and Yasha]]Sange and Yasha1.12倍=403 → gg wp
+　
+また、前述のとおり敵ワードでも効果は切れるのでdewardも捗る。
+supportに言ってもやらないときは自分でやろう。味方のcarryを守ることは勝利への一歩である。
+このときの位置を意識しておけば定番ward位置やカウンターwardの位置、逆に度肝を抜くnerdy wardの位置もわかってくるはず。
+それをsupportの時に生かしたらいいと思う。
+もちろんこれはslarkにとって一番優先度の低い仕事なので積極的にやらなくてもいい。
+チームでroshanいこうとして自分だけwardに気づいているなら、''warded here(ﾋﾟﾝﾋﾟﾝ)って言うだけでも十分チームのためになる''。
+　
+また、このアイコン。
+&ref(image/Slark_skill402.jpg,nolink);
+自分が見られているか見られていないか確実にわかるのは''めちゃくちゃ強い''。
+レーニングフェイズに限らずgank行く時とかもバレてるかどうかわかるし、
+[[&ref(image/Spirit Breaker_icon.png,nolink,32x32);>Spirit Breaker]]Spirit BreakerのChargeも、一瞬小道に入ってもultが無効になってたらすぐわかる。
+　
+敵にSpirit Breakerいないしwardがあるようなところじゃないのにultが切れる時は、
+インビジクソ野郎が近くで見てるから、[[&ref(image/Dust of Appearance.png,nolink,22x16);>Dust of Appearance]]Dustなりなんなり買ってサクッとやっちゃいましょう。
+Normal pubはinvisibleが無敵かなんかと勘違いしてるアホが多いので簡単にヤレる。
+　
+　
+さらに、攻めにも受けにもult passiveのregenerationを生かすためにjukepointは覚えておこう。
+dota2 juke map
+とかでググれば出てくるので、ルートはそこそこに入口だけ覚えておけば十分強い。
+ルートおぼえれば攻めで飛びつける。
+　
+さらにさらに、このultのactive効果であるinvisibleでも看破されなければregenerationは有効になる。
+4秒間のヒール量は
+-ultlv1 12％
+-ultlv2 20％
+-ultlv3 28％
+
+
+敵と殴り合い中に、ultで隠れて殴りつつstatus盗みながらregenerationとMagic Wandなんか使った際には
+姿現れた瞬間、殴り合い最強の[[&ref(image/Ursa_icon.png,nolink);>Ursa]]Ursa、[[&ref(image/Lifestealer_icon.png,nolink);>Lifestealer]]Lifestealerですらおしっこ漏らします。
+　
+　
+&ref(image/Slark_skill401.jpg,nolink);
+　
+
+***1.4.5 総評
+
+クールダウン、マナコストともに低く''スキル回転率がよすぎるのがメリットとデメリット''である。
+gankや集団戦いくって時は簡単にマナ計算しておかないとスキルがどれも中途半端になっちゃう。
+
+あと、pubでHealth満タンマナ0でフラフラしてるやつよく見るけど、さっさと[[&ref(image/Clarity.png,nolink,22x16);>Clarity]]Clarityなり買ってgankにいこう。
+そのマナ使ってgankすればお金も、さらに経験値まで得られるからね。
+
+
+*2 スキルビルド
+
+基本的には2→1→3と取ってから2伸ばしになる。
+レーン対面がmelee2人なら3が強い、status固定値の上昇は序盤ほど効果が大きい、プロでも[[&ref(image/Iron Branch.png,nolink,22x16);>Iron Branch]]Iron Branchをわざわざ買うのは、つまりそういうこと。
+midなら捕まえて殴って吸い取るの繰り返しになる。killを狙うのは6になってからもしくはサイドからgankに誰か来たときだけ。
+1はパージのために取る。
+
+ultはかならず6、11、16で取る。いわずもがな。
+　
+ダメージの伸びがいい1番を後回しにするのは、CDの都合で2番を伸ばした方が機動力が上がり総合的に強いから。さらに1番の被ダメージが序盤は意外と痛かったりする。
+pubでたまに1番をpurgeのために一個だけ取って後はstatus上げてる人たまに見かけるけど、あまりオススメできない。低いstatusを補えるからといって強力なnuke push farmスキルを取らないのは、なんでも一人でこなすことを前提とした当pubstompビルドにそぐわないから。しかも、正直、status伸ばしてもそんなに強くならない。
+
+
+**2.1 基本ビルド
+　
+
+||CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|c
+|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|~基本ビルド|
+|~&ref(image/Slark_skill1.png,nolink,30x30);|  |~2|  |  |  |  |  |~8|~9|~10|  |  |  |  |  |  |
+|~&ref(image/Slark_skill2.png,nolink,30x30);|~1|  |  |~4|~5|  |~7|  |  |   |  |  |  |  |  |  |
+|~&ref(image/Slark_skill3.png,nolink,30x30);|  |  |~3|  |  |  |  |  |  |   |  |~12|~13|~14|  |  |
+|~&ref(image/Slark_skill4.png,nolink,30x30);|  |  |  |  |  |~6|  |  |  |   |~11|  |  |  |  |~16|
+|~&ref(image/stats.png,30x30,nolink);|  |  |  |  |  |  |  |  |  |  |  |  |  |  |~15|  |
+''mid or サイドレーンdou対面にmelee1人以上''
+3番はharass兼自分のbuffでLH取りやすくするため。
+　
+　
+||CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|CENTER:20|c
+|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|~生存重視ビルド|
+|~&ref(image/Slark_skill1.png,nolink,30x30);|  |~2|  |~4|  |  |  |  |~9|~10|  |  |  |  |  |  |
+|~&ref(image/Slark_skill2.png,nolink,30x30);|~1|  |~3|  |~5|  |~7|  |  |   |  |  |  |  |  |  |
+|~&ref(image/Slark_skill3.png,nolink,30x30);|  |  |  |  |  |  |  |~8|  |   |  |~12|~13|~14|  |  |
+|~&ref(image/Slark_skill4.png,nolink,30x30);|  |  |  |  |  |~6|  |  |  |   |~11|  |  |  |  |~16|
+|~&ref(image/stats.png,30x30,nolink);|  |  |  |  |  |  |  |  |  |  |  |  |  |  |~15|  |
+''サイドレーンdou対面にranged2人 or 自分がsolo''
+3番を後で取るのは、そもそも殴り合える状況じゃないから。
+　
+下がり気味で経験値だけ吸って、たまに他レーンからくるgankに合わせてnukeでkillを取るのが目的のビルド。
+どちらにしてもult以降には必ず3番を一つ取ること。
+いざこざが発生する時間帯になり、殴り合いで生き残るために必要になる。
+　
+slarkに慣れないうちはこちらのビルドが安定かもしれない。
+3番ありの殴り合いの押し引きのタイミングもよくわからないと思うので。
+
+*3 アイテムビルド
+
+gankで金集めて、終盤に向けてsemi-carry気味に揃える。
+purge leap invisibleを持ってるので武器だけ買って、後はスキルでなんとか生き残る。
+
+**3.1 序盤
+
+[[&ref(image/Tango.png,nolink,43x32);>Tango]][[&ref(image/Healing Salve.png,nolink,43x32);>Healing Salve]][[&ref(image/Stout Shield.png,nolink,43x32);>Stout Shield]]
+[[&ref(image/Iron Branch.png,nolink,43x32);>Iron Branch]]　[[&ref(image/Iron Branch.png,nolink,43x32);>Iron Branch]] or [[&ref(image/item/Animal Courier.png,nolink,43x32);>Animal Courier]]
+tango　ポーション　盾
+枝　枝 or courie
+これがスタート安定ビルド
+　
+ここからmidなら[[&ref(image/item/Bottle.png,nolink,43x32);>Bottle]]Bottle
+サイドレーンならまず[[&ref(image/Boots of Speed.png,nolink,43x32);>Boots of Speed]]Boots of Speed、その後[[&ref(image/item/Magic Wand.png,nolink,43x32);>Magic Wand]]Magic Wandを目指す。
+　
+基本的にはcourieは誰かに任せたいところだけど、誰も買わないと自分も困るのでそういうときだけ買う。
+その際は必ずアピールを忘れないように。
+　
+&ref(image/tyslark.jpg,nolink);
+　
+　
+midでは[[&ref(image/item/Bottle.png,nolink,43x32);>Bottle]]Bottleの後に[[&ref(image/item/Boots of Speed.png,nolink,43x32);>Boots of Speed]]Boots of Speed買うのが安定する。
+サイドレーンになるとヒーローが4人いることと相方とのシナジーの関係で、まず[[&ref(image/item/Boots of Speed.png,nolink,43x32);>Boots of Speed]]Boots of Speedを買って、
+[[&ref(image/item/Magic Wand.png,nolink,43x32);>Magic Wand]]Magic Wandの材料である[[&ref(image/item/Magic Stick.png,nolink,43x32);>Magic Stick]]Magic Stickを買ってから、盾を[[&ref(image/item/Poor Man's Shield.png,nolink,43x32);>Poor Man's Shield]]Poor Man's Shieldにするとだいぶ安全になる。
+ここまでサイドショップで全部買えるのも強みの一つとなる。そこから[[&ref(image/item/Magic Wand.png,nolink,43x32);>Magic Wand]]Magic Wandの素材と[[&ref(image/item/Town Portal Scroll.png,nolink,43x32);>Town Portal Scroll]]Town Portal Scrollもしくは[[&ref(image/item/Clarity.png,nolink,43x32);>Clarity]]Clarityなんかをcourieで運ばせるって流れ。
+　
+その後、靴は[[&ref(image/item/Power Treads.png,nolink,22x16);>Power Treads]]Power Treadsにする。
+3番を生かすのための攻撃速度とintに切り替えてスキルを絞り出すなど、slarkの低マナコストスキルと非常にマッチしている。
+ちなみにstr or agiからintへの切り替えで104mana増える。
+1番のマナコストは多くて55、2番のマナコストが75だから靴の切り替えで一回だけ使える。
+マナコスト120のultも十分射程圏内だが、2番で距離を取るか、崖越えした方が生存率は高い。
+個人的には、完成するのが早いときはしばらくstrで運用して、agi靴にしてもhealth1000割らないぐらい育ったらagiで常用している。
+2番当てるために[[&ref(image/item/Phase Boots.png,nolink,22x16);>Phase Boots]]Phase Boots作りたくなるけど、それはslark使い始めだけにしよう。絶対に[[&ref(image/item/Power Treads.png,nolink,22x16);>Power Treads]]Power Treadsの方が強い。
+
+
+**3.2 中盤
+
+この辺から常にgankで稼ぎます。
+ミニマップに映った奴から順に敵ヒーローを殺していきます。
+　
+[[&ref(image/item/Power Treads.png,nolink,43x32);>Power Treads]][[&ref(image/item/Magic Wand.png,nolink,43x32);>Magic Wand]][[&ref(image/item/Poor Man's Shield.png,nolink,43x32);>Poor Man's Shield]]
+[[&ref(image/item/Town Portal Scroll.png,nolink,43x32);>Town Portal Scroll]][[&ref(image/item/Clarity.png,nolink,43x32);>Clarity]][[&ref(image/Dust of Appearance.png,nolink,43x32);>Dust of Appearance]]
+しばらくはこんな感じでgankに回ることにると思う。
+[[&ref(image/item/Clarity.png,nolink,43x32);>Clarity]]Clarityか[[&ref(image/Dust of Appearance.png,nolink,43x32);>Dust of Appearance]]Dustのかわりに[[&ref(image/item/Orb of Venom.png,nolink,43x32);>Orb of Venom]]Orb of Venomを持つのもアリだけど、個人的にはあまり買いません。
+枠が無いのと、ただでさえ足の遅い序盤に12%スローはあまり意味がないと考えているから。
+　
+　
+敵にinvisible持ちヒーローいるなら[[&ref(image/item/Dust of Appearance.png,nolink,43x32);>Dust of Appearance]]Dustか[[&ref(image/item/Sentry Ward.png,nolink,43x32);>Sentry Ward]]Sentry持って必ず狙おう。それがslarkの重要な仕事の一つ。
+ultのpassiveでinvisible状態で近くにいるのは感知できるし、pub normalにinvisible看破対策を知ってる人はいない、
+invisible持ちはみんな柔らかいってのが相場なので、絶好のエサになる。
+　
+　
+適当に狩りつつ、まず[[&ref(image/item/Skull Basher.png,nolink,43x32);>Skull Basher]]Basherの材料になる[[&ref(image/item/Javelin.png,nolink,43x32);>Javelin]]Javelinを買う。
+[[&ref(image/item/Skull Basher.png,nolink,43x32);>Skull Basher]]Basherが完成したら、次は[[&ref(image/item/Heart of Tarrasque.png,nolink,43x32);>Heart of Tarrasque]]Heart of Tarrasqueか[[&ref(image/item/Eye of Skadi.png,nolink,43x32);>Eye of Skadi]]Eye of Skadiか[[&ref(image/item/Black King Bar.png,nolink,43x32);>Black King Bar]]Black King Barのどれか。
+　
+　
+基本的には[[&ref(image/item/Heart of Tarrasque.png,nolink,43x32);>Heart of Tarrasque]]Heart of Tarrasqueを作る。ただでさえArmorがどんどん増えるslarkがHeart of Tarrasque持ったらまず死ななくなる。
+敵のdisableがきつすぎる場合は先に[[&ref(image/item/Black King Bar.png,nolink,43x32);>Black King Bar]]Black King Barを作る。
+自チームにtankyなのが多いなら、[[&ref(image/item/Eye of Skadi.png,nolink,43x32);>Eye of Skadi]]Eye of Skadiを作る。DPS出すための装備を揃えていく。
+　
+　
+例外として、敵チームに[[&ref(image/Ursa_icon.png,nolink);>Ursa]]Ursa、、[[&ref(image/Alchemist_icon.png,nolink);>Alchemist]]Alchemist、[[&ref(image/Huskar_icon.png,nolink);>Huskar]]Huskarなど、buffやAttack Modifier山盛りの、殴りがヤバいヒーローがいた場合は[[&ref(image/Heaven's Halberd.png,nolink,43x32);>Heaven's Halberd]]Heaven's Halberdを作ること。
+作るタイミングは[[&ref(image/item/Skull Basher.png,nolink,43x32);>Skull Basher]]Basherの後。心配ならBasherより先でも問題なし。スローと回避もつくのでslarkの持つ武器としては十分強い。ただBasherはどっちみち作らないと中盤終盤戦えないので必須。
+効果時間は3秒ほどなのでしっかり狙うこと。ursaはウオー！って言った後に使う。huskerは飛び込んで来たらすぐ使えば良い。どのヒーローもだいたい殴りだす合図があるのでよく見ること。
+ちなみに、slarkのultを使うべきタイミングもこのタイミングと同じ。Halberd無しultだけで4秒、Halberd持てば合計7秒ぐらい一方的に殴れる。
+　
+　
+***3.2.1 私見
+最初の武器として[[&ref(image/item/Eye of Skadi.png,nolink,22x16);>Eye of Skadi]]Eye of Skadiを作ろうとする人いるけどこれはやめた方がいい。5675円と高額なのでただでさえfarmの遅い上に、gankがうまくいかないと、作るのが他の武器と比べとても遅くなってしまう。できた頃にはスローなんか効果ない程、もしくはslarkが前に出れられない程敵チームが育ってしまうこともある。
+Skadi作るぐらいなら、[[&ref(image/item/Sange and Yasha.png,nolink,22x16);>Sange and Yasha]]Sange and Yashaや[[&ref(image/item/Skull Basher.png,nolink,22x16);>Skull Basher]]Basherなどの軽めの武器作って、gankや集団戦でのある程度のチーム全体DPSへの貢献もしたほうが、金、経験値的においしい場合がほとんどである。
+　
+また、オススメに[[&ref(image/item/Manta Style.png,nolink,22x16);>Manta Style]]Manta Styleあるけどslarkは基礎status低いのと自前でpurgeがあるので[[&ref(image/item/Manta Style.png,nolink,22x16);>Manta Style]]Manta Styleはだいぶ後回しにするべき。しかも、[[&ref(image/item/Heart of Tarrasque.png,nolink,22x16);>Heart of Tarrasque]]Heart of Tarrasqueと[[&ref(image/item/Eye of Skadi.png,nolink,22x16);>Eye of Skadi]]Eye of Skadiまで持たないとillusionが弱すぎる。もちろん、illusionではstatusは盗めない。私はslarkでmanta持ったことない。
+　
+敵の構成によっては[[&ref(image/item/Orchid Malevolence.png,nolink,22x16);>Orchid Malevolence]]Orchid Malevolenceも効果的になる。
+[[&ref(image/Weaver_icon.png,nolink);>Weaver]]Weaver、[[&ref(image/Anti-Mage_icon.png,nolink);>Anti-Mage]]Anti-Mage、[[&ref(image/Queen of Pain_icon.png,nolink);>Queen of Pain]]Queen of Pain、[[&ref(image/Lina_icon.png,nolink);>Lina]]Lina、[[&ref(image/Lion_icon.png,nolink);>Lion]]Lionなどなど
+mana regenerationと攻撃速度の増加、サイレンスで逃げやnukeでの反撃防止、追加ダメージでのトドメ。特定のヒーローに対して特に効果的でslarkのgankをさらに加速させる。ただ、終盤若干失速してしまうのが気になるところ。
+ちなみにHoNのHellflowerとは違いperplexはないので、普通にアイテムで逃げられる。[[&ref(image/item/Black King Bar.png,nolink,22x16);>Black King Bar]]Black King Bar、[[&ref(image/Force Staff.png,nolink,22x16);>Force Staff]]Force Staff、[[&ref(image/item/Shadow Blade.png,nolink,22x16);>Shadow Blade]]Shadow Bladeなんかね。
+　
+敵にあまりにもdisableが多くない限り[[&ref(image/item/Black King Bar.png,nolink,22x16);>Black King Bar]]Black King Barは少し遅めに作ったほうがいい。早い時期に[[&ref(image/item/Black King Bar.png,nolink,22x16);>Black King Bar]]Black King Barを作ってしまうと、gankerであるslarkは接敵する機会が多いのですぐに腐っちゃう。
+初手BKBを作ることが強さになる[[&ref(image/Lycanthrope_icon.png,nolink,32x32);>Lycan]]Lycanみたいなのがいるように、敢えてのちょっと遅めのBKBがslarkにとって終盤の強さになる。
+
+
+**3.3 最強のトビウオ
+[[&ref(image/item/Power Treads.png,nolink,43x32);>Power Treads]][[&ref(image/item/Abyssal Blade.png,nolink,43x32);>Abyssal Blade]][[&ref(image/item/Butterfly.png,nolink,43x32);>Butterfly]]
+[[&ref(image/item/Eye of Skadi.png,nolink,43x32);>Eye of Skadi]][[&ref(image/item/Monkey King Bar.png,nolink,43x32);>Monkey King Bar]][[&ref(image/item/Black King Bar.png,nolink,43x32);>Black King Bar]]
+　
+ここまでいったslarkはもう誰にも止められやしねぇ・・・
+　
+相性いい武器は
+[[&ref(image/item/Skull Basher.png,nolink,43x32);>Skull Basher]]Skull Basher、スタンを持ってないslarkにとっては最高の武器。追撃、殴り合い、チャネリング解除などなにかと有用。
+[[&ref(image/item/Sange and Yasha.png,nolink,43x32);>Sange and Yasha]]Sange and Yasha、スローと移動速度UP、敵にスタンが少なければ大暴れできる。 &color(Green){Not UAM!};
+[[&ref(image/item/Heaven's Halberd.png,nolink,43x32);>Heaven's Halberd]]Heaven's Halberd、Sangeからの発展、敵の殴りヒーローがヤベー時に、回避とスローもついててお得。
+[[&ref(image/item/Orchid Malevolence.png,nolink,43x32);>Orchid Malevolence]]Orchid Malevolence、blinkやnuke持ちintをgankするときにちょうどいい。
+[[&ref(image/item/Heart of Tarrasque.png,nolink,43x32);>Heart of Tarrasque]]Heart of Tarrasque、敵視界外に逃げたら10秒ほどでHealth全回復しちゃう。
+[[&ref(image/item/Black King Bar.png,nolink,43x32);>Black King Bar]]Black King Bar、みんな大好きBKB、スタン一個でもくらったら重ねられて即死だからね。
+[[&ref(image/item/Shiva's Guard.png,nolink,43x32);>Shiva's Guard]]Shiva's Guard、tankyにいくならついでにね。スロー中にポコポコ殴る。
+[[&ref(image/item/Mjollnir.png,nolink,43x32);>Mjollnir]]Mjollnir、攻撃速度、とAoEは魅力的。シールドが有効に働くほど長生きできるかは微妙な所・・・　&color(Red){UAM};
+[[&ref(image/item/Desolator.png,nolink,43x32);>Desolator]]Desolator、敵にstrが多いならこれでgankが捗る。終盤になるとちょっと片手落ちになる　&color(Red){UAM};
+[[&ref(image/item/Eye of Skadi.png,nolink,43x32);>Eye of Skadi]]Eye of Skadi、スローで追撃や殴り合いに強い。ただでさえ低いslarkのstatusを補強できるのもおいしい　&color(Red){UAM};
+　
+''高額だけど誰が持っても強いシリーズ''
+[[&ref(image/item/Butterfly.png,nolink,43x32);>Butterfly]]Butterfly、agiならだれが持っても強い
+[[&ref(image/item/Monkey King Bar.png,nolink,43x32);>Monkey King Bar]]Monkey King Bar、攻撃速度とBashと必中、ちなみにミスするとstatusスティールは無し！
+[[&ref(image/item/Abyssal Blade.png,nolink,43x32);>Abyssal Blade]]Abyssal Blade、任意のタイミングでスタンさせられるのは強力。しかも2秒！
+　
+[[&ref(image/item/Divine Rapier.png,nolink,43x32);>Divine Rapier]]Divine Rapier
+　
+　
+聡明なみなさんならお気づきでしょうが、Lifestealは持たない。
+基本的に殴り合うヒーローじゃなくて、何発か殴って引いて殴って引いてみたいな動きになる。
+さらに、さすがに終盤のLifestealを持ってくるcarryに対して立ち止まって殴り合いするような状況では勝てない。
+さらに自前のregenerationがあるからレーニングも容易。
+と、なるとLifestealにかけるコストに対して恩恵を受ける機会があまりないというわけ。
+　
+もちろん集団戦中も視界を切ってhealする。
+ult中の4秒でも28%、木や高台で視界切ってちょっと待てば、スキルのCDも上がり十分に戦える体力まで戻る。適度なところで勇気をもって逃げよう。
+Healthの減ってるslarkを追ってきたらこっちのもん。狙われていない味方がDPS出してくれる。&color(Silver){はず・・・たぶんね。};
+　
+防具を持たないagi carry全員に言えることだが、基本的にスタン一個もらったらそこから重ねられて即死するので、もらいそう、もらっちゃったら全スキルキー連打しよう。
+
+
+
+*4 戦い方
+　
+基本的に2番で固定して殴りでダメージを出す。簡単だね。
+
+***－lv5
+ラストヒットをしっかり狙う。
+対面にmeleeがいるなら3番で殴ろう。多くて1、2発。あんまりしつこく殴ると敵クリープがまとわりついてきて、自分もけっこう食らっちゃうし、敵もスキルで仕掛けて来たりする。さらにラストヒットも取り逃してしまう。
+slarkの最初のピークはレベル4。スキル1,2,3を全部持ってて2番がスキルレベル2の状態。
+このころから対面キルを意識していこう。
+敵meleeがラストヒット取りに来たら、こちらも向かって行って一発殴ってすぐ2番で飛びつく。殴る瞬間は必ず敵ヒーローの方向を向いてるから2番の飛びつきも必中になる。
+対面がrangedしかいないならgank待ちか、油断したところに味方のスタンなんかが当たるの待ちになる。2番で距離を詰めつつヒットさせるにはなかなかコツが必要になる。なんとこのpubstompビルド、pounceヒットのコツまで書いちゃいます！（後述）
+　
+***lv6－10
+　
+gank allday
+　
+レーンでのファームは一切必要なし。
+gankしていれば経験値も金も十分稼げるし、しかもこのゲーム、ヒーローキルで得た賞金は死んでも減りません！！
+レーンでのんきにfarmしてるアホを殺したら、そこに残ったクリープ食って軽くpushしつつ、ミニマップ見て次の獲物探し、その繰り返しで稼ぐ。
+　
+レベル6でult取るとレーンの移動が素早くなり、gank後のhealthもすぐに回復する。ultを軸に高頻度でgankしてれば敵も迂闊にレーンでfarmやpushしづらくなる。雰囲気で敵陣側に押し込んでいけば、味方のfarmは捗るし、敵のfarmもどんどん遅れる。ここでとてもいい流れができる。
+　
+このレベル帯がslarkにとっての中盤。アイテムビルドは[[&ref(image/item/Skull Basher.png,nolink,22x16);>Skull Basher]]Skull Basher完成までぐらいがこの時間帯になる。
+ここからがslarkのビルドの面白いところになる。
+　
+***lv11－15
+　
+semi-carry or tanky
+　
+この辺りから大規模な集団戦が頻発する時間帯になる。全員が強力なultとそこそこの装備を揃えてぶつかる、一番面白い時間帯でもある。この時間帯での勝敗が後の流れを作るのでがんばろう。ここから揃えるアイテムでチームにおけるslarkのroleが決まる。gankしつつどういうアイテムビルドにするか考えよう。こればっかりは敵味方9人の構成しだい。
+　
+なんて書くと初心者向けとは言い難いので、だいたい安定アイテムビルド書いちゃう。
+　
+[[&ref(image/item/Power Treads.png,nolink,43x32);>Power Treads]][[&ref(image/item/Magic Wand.png,nolink,43x32);>Magic Wand]][[&ref(image/item/Poor Man's Shield.png,nolink,43x32);>Poor Man's Shield]]
+[[&ref(image/item/Skull Basher.png,nolink,43x32);>Skull Basher]] → [[&ref(image/item/Heart of Tarrasque.png,nolink,43x32);>Heart of Tarrasque]] → [[&ref(image/item/Black King Bar.png,nolink,43x32);>Black King Bar]] → [[&ref(image/item/Eye of Skadi.png,nolink,43x32);>Eye of Skadi]]
+　
+[[&ref(image/item/Heart of Tarrasque.png,nolink,22x16);>Heart of Tarrasque]]Heart of Tarrasqueを作る途中に枠がきつくなるから[[&ref(image/item/Poor Man's Shield.png,nolink,22x16);>Poor Man's Shield]]Poor Man's Shieldを売ろう。
+敵にinvisibleがいるなら[[&ref(image/item/Skull Basher.png,nolink,22x16);>Skull Basher]]Skull Basherの後に[[&ref(image/item/Gem of True Sight.png,nolink,22x16);>Gem of True Sight]]Gemを買って、集団戦におけるチームの優位を維持しよう。
+　
+武器も防具も欲張りに、このビルドのテーマでもある万能な感じで揃える。
+[[&ref(image/item/Heart of Tarrasque.png,nolink,22x16);>Heart of Tarrasque]]Heart of Tarrasqueのおかげで集団戦でもしばらく前線で戦い続けられるし、[[&ref(image/item/Skull Basher.png,nolink,22x16);>Skull Basher]]Skull Basherでダメージとdisableをばらまく、そんな戦い方になる。gankでは2番で捕まえて[[&ref(image/item/Skull Basher.png,nolink,22x16);>Skull Basher]]Skull Basherのスタンが出ることを祈りつつ殴り続ける。[[&ref(image/item/Heart of Tarrasque.png,nolink,22x16);>Heart of Tarrasque]]Heart of Tarrasqueがあるのである程度耐えられるし、gank後もとんでもないregenerationですぐ次のgank、集団戦に参加できる。
+3番のスキルレベルが上がって持続時間が伸びてくるとstatusを維持したまま次の戦いに参加したいので、gankが止まらなくなる。止められなくなる。血の匂いがする所を駆け回ろう。slarkは足で戦うのだ、足でな。
+
+　
+***lv16－
+
+teamfight teamfight teamfight
+　
+この時間帯になるとさすがのpub normalといえどもしっかりstick togetherしてくるのでgankは不可能になる。
+「お、[[&ref(image/Crystal Maiden_icon.png,nolink,16x16);>Crystal Maiden]]Crystal Maidenが一人でdewardしてる！」いっちょ可愛がってやるかと、そういうのに安易に飛びつくと、逆にCMの後ろにいる屈強な男たちに可愛がられちゃう。
+　
+slarkの夜でも広い視界と2番の機動力でscoutingし自チームに有利な当たり方を心がけよう。この時間の集団戦は全員強力なultと装備を持って全力でぶつかるので、瞬きした奴から死んでいく。
+slarkがinitiateすると一瞬で殺されるので、味方のスタンかなにかの次に突っ込もう。一度集団戦が始まってしまえば即死だけは避けられる。
+この時間帯の集団戦ではスキル1番はダメージよりpurge目的に使った方が強い。敵のスタンやスローなんかをどんどん無駄遣いさせよう。
+2番はCD上がるごとにどんどん使おう。混戦中ならhealth低い奴を逃がさないためや、味方のhealth低い奴を追わせないため、もちろん、ある程度勝敗の決まった集団戦後の残党狩りなんかにもね。
+3番は殴れば殴るほど敵は弱く、自分は強くなるから混戦中も隙あらばどんどん殴ろう。
+ultはパッチでCD伸びちゃったから、ここぞ！というときに使うしかない。殴りでダメージを出すタイプのヒーローは、殴り始めるタイミングがわかりやすくなってるからそれを学んでいこう。たとえば吠えたり、スキルを使って手が光ったり、変身したりなどなど。
+
+
+**4.1 lane
+どのレーンでもいける便利なヒーロー。
+でもlvl6,7辺りからはずーっとroamingするので、まあどこでもいい。味方と適当に合わせよう。
+
+***4.1.1 sidelane
+ロングレーン行って相手のcarryを殺しましょう。honとdota2はレーンの呼び方が逆かもしれない。radならtop、direならbotに行こう。
+スキルは2番を最初に取って、攻守とも対応可能なので0分runeのチェック。midヒーローが来てるならあげたらいいし、来てないなら即ゲット。
+''slarkがkillを狙えるのはlvl3から''。それまではできるだけスキルは使わずmanaを温存しよう。使うならgankから逃げる時だけ。lvl4,5,6あたりのslarkはなかなか強くて、対面double killも十分狙える。
+レーンの相方がいくらアホでも、slarkの2番のヒット音と派手なエフェクトを見たらさすがにスキル重ねてくれるはず。
+　
+killとLHで[[&ref(image/item/Power Treads.png,nolink,22x16);>Power Treads]]Power Treads、[[&ref(image/item/Magic Wand.png,nolink,22x16);>Magic Wand]]Magic Wand完成してlvl6になってるなら、もうさっさとgankに移行しよう。[[&ref(image/item/Poor Man's Shield.png,nolink,22x16);>Poor Man's Shield]]Poor Man's Shieldできてなくてもまあだいたいイケる。手始めにmidからしゃぶりにいこう。
+
+***4.1.2 mid
+じつはmidもけっこう強い。
+2番の機動力の高さと3番のおかげで1v1はやりやすい。
+さらに[[&ref(image/item/Bottle.png,nolink,22x16);>Bottle]]Bottle買ってrune管理もするので、manaの回りもよくなり、gankが止まらなくなる。
+　
+''lvl6まで死ななければ勝ち確定''。regenerationでharassは意味なくなるし、いざとなればinvisibleで逃げられる、足も速くなりsidelaneへのgankの加速。文句なしの強さ。
+mid heroにはいろいろ相性ってものがあるが、slark対面はranged heroってだけでちょっと辛くなる。3番が生かせないし、LH精度も若干落ちる。さらに3番で殴れなければアーマー値も低く、agi hero全員の悩みであるhealthも低い。LHを取り、危なくなったら2番で逃げる。おとなしくlvl6まで静かなレーニングをするしかない。
+逆に言うと、gankに行くか来るかで成功し対面より早くlvl6になればかなり有利に立ち回ることができる。
+
+***4.1.3 suicide
+2番で緊急回避できるけど、LHを取りに行くのはほぼ無理。経験値も吸えてLHも多少狙えるsuicidal heroが他にもいるのにわざわざslarkで行くのはもったいない。lvl6超えたらさっさとそのレーンを放棄してgankに回ったほうが確実に稼げる。
+もしもやらざるを得ないなら、スキルビルドは21伸ばし。lvl6超えるまで''3番で殴る機会なんて一切ござぁーせん''。
+
+そもそも、対面がまともなduoなら経験値すら吸わせてもらえない。そうなったらslark完全におわり。ただでさえ打たれ弱いのにレベルブーストすらないと、ただのクソザコナメクジ。
+　
+''ただし！''今回はpub normal想定なので、経験値を吸いやすいsoloは逆にいい選択かもしれない。2v1でslark soloを叩き潰せるほど相手も上手くないかもしれない。どの程度のプレイヤースキルを持つ対面がくるかは運しだい。
+
+***4.1.4 etc.
+tri lane
+jungle
+lvl1 roshan
+''むり''
+
+**4.2 集団戦
+大きくは2点。
+とにもかくにも隙を見つけて敵ヒーローを殴ろう。slarkの強さは3番に依存している部分が大きい。
+CDの短さを生かして2番でどんどん飛びつこう。
+
+***4.2.1 開戦前
+initiateはできるだけやめましょう。飛び込むなら2番手以降がいい。
+agiなのでArmorはそこそこあるけど、healthは低い。スキル重ねられてボッコボコにされる。
+　
+だからといって誰も行かないんじゃお話にならないので、フェイントなんかも混ぜつつ勇気を出して2番で飛び込もう。ヒット確認無しでも1番のpurgeかultで逃げる準備してもいい。ヒットしたならそのまま殴ればいいし、ヒットしなければ、おとなしく下がって仕切り直し、もしそのまま開戦しちゃったなら後ろの方で1,2秒待ってから前線に戻ればいい。
+　
+''両軍にらみ合い中に注意すべきは、自分のbuffアイコン''のところ、&ref(image/Slark_skill4.png,nolink,32x32);ultのpassiveが有効かどうかチラチラ見よう。
+これは、相手に視界取られているかどうかと、invisibleユニットが付近にいないかのチェック。
+invisibleユニットの疑いありなら[[&ref(image/Dust of Appearance.png,nolink,22x16);>Dust of Appearance]]Dustか[[&ref(image/item/Sentry Ward.png,nolink,22x16);>Sentry Ward]]Sentryでクッソ有利な開戦ができる。
+視界範囲、高低差、定番ワード位置などを知らないと判断が難しいかもしれない。
+
+
+***4.2.2 混戦中
+　
+''ボコスカウォーズ''
+　
+手近なヒーローかhealthの低いヒーロー、[[&ref(image/item/Skull Basher.png,nolink,22x16);>Skull Basher]]Basher持ってるなら敵carryなんかをボコボコにする。
+この間もCDの短い1番2番をどんどんばら撒こう。purgeやbindで思わぬところで助かったり味方を助けたりできているかもしれない。
+healthが3割切ったらおとなしく下がろう。passiveですぐに回復するし、スキルのCDも上がってまた前線で戦えるようになる。
+ultは攻守ともに使えるが、最近のパッチでCDが大きく伸びて、同じ集団戦で2度は絶対に使えないのでそこは意識しておこう。
+　
+　
+**4.3 pounce tech
+　
+slarkの象徴的なskill ''pounce'' そのコツを書きたい。
+
+***4.3.1 基礎
+　
+top laneでのお話。
+敵ヒーローを追いかける形で飛びつきたい。
+pounceはキーを押した瞬間、slarkの向いている方向に飛ぶ。（地面指定ではない）
+このまま（画像参照）飛びつけばいいじゃないかと思いがちだが、敵も逃げるフェイントを挟んでくる。一瞬左に振ってから右に逃げたり、このまま森にぶつかるまでまっすぐ上に逃げたりなんか。
+そんな時確実に当てるには、敵のちょい右を右クリックするのが最善。（画像参照）
+敵は左に逃げようが上に逃げようが、最終的にはタワー圏内、つまり右に逃げなければかならず死ぬ。敵がフェイント入れてるうちに追いつけたなら、一度殴れる。少し上でも触れたが、殴る瞬間は必ず対象の方向を向いているので、''一度でも殴れたのなら、2番も必中の状態が整ってからcastできる''。
+CD短いからといって乱発することだけが最善ではないし、殺意の波動に飲まれて敵を右クリック連打することだけが最速で殺せる方法でもない。
+このスキルによらず、''どのヒーローでもこの追い方は重要なスキル''となる。
+　
+|&ref(image/Slark_skill204.jpg,100x100);|&ref(image/Slark_skill205.jpg,100x100);|
+画像クリックで拡大
+　
+　
+またslarkの広い夜視界を生かした有利な接敵方法もある。
+slarkの夜視界1800で先に敵を発見しておく。一般的なヒーローの夜視界は800、pounceの射程は700。敵にとっては視界に入った瞬間飛びついてくるようなgankが可能なのである。敵もminimapとかshop panelとか見てたりするし、''まあだいたいいける''。
+レーンでfarmしている敵に対してレーンを歩いて飛びつくなら、敵ヒーローを右クリックしていい距離になったら飛びつけばいい。
+先に発見したものの森から飛びついた方がよさそうな場合は、上記の、敵の逃げる方向の先を右クリックするような近づき方でgankする。森から出る瞬間見られて敵ヒーローが動き出したり、クリープが寄ってきたりして、pounceが当てられなくなる可能性をできるだけ下げたい。
+また、木や崖を挟んだ状態から飛びつくコツもある。
+
+
+***4.3.2 応用
+　
+''崖を超えるtechnical pounce''
+　
+botでのお話。
+川を渡って来た、もしくは逃げるヒーローに崖上から飛びつく方法。
+直接ヒーローを右クリックするとオレンジのルートが選択されるため、slarkは右を向いてしまう。
+この解決策は、まず、敵の向かっている位置（wardの辺り）とslarkの間を結ぶ青いラインをイメージする。（画像参照）その線上かつ、崖を挟んで自分の側の地面を右クリックし、その瞬間にstopかholdオーダーを入れる。すると、slarkの向きだけ変わる。敵がwardの位置に来たら飛びつく。
+このやり方は最初は準備に1秒ぐらいかかるけど、なれれば敵から逃げる際中とかでも一瞬でできるし、''成功すれば生存率、gank成功率も格段に上がる''ので是非習得すべき。
+[[&ref(image/Mirana_icon.png,nolink,16x16);>Mirana]]Miranaの3番や[[&ref(image/Force Staff.png,nolink,22x16);>Force Staff]]Force Staffでも有効なスキルとなる。
+　
+|&ref(image/Slark_skill206.jpg,100x100);|&ref(image/Slark_skill207.jpg,100x100);|
+画像クリックで拡大
+　
+　
+
+*5 相性
+**5.1 味方チーム
+　
+''&color(Green){発動にディレイがあるが強力なスキルを持つヒーロー};''
+|CENTER:[[&ref(image/Lina.png,64x36);>Lina]]&br;[[Lina>Lina]]|CENTER:[[&ref(image/Leshrac.png,64x36);>Leshrac]]&br;[[Leshrac>Leshrac]]|CENTER:[[&ref(image/Kunkka.png,64x36);>Kunkka]]&br;[[Kunkka>Kunkka]]|CENTER:[[&ref(image/Pudge.png,64x36);>Pudge]]&br;[[Pudge>Pudge]]|CENTER:[[&ref(image/Jakiro.png,64x36);>Jakiro]]&br;[[Jakiro>Jakiro]]|
+彼らの持つ当てにくいスキルのためにpounceで敵を固定してあげよう。
+序盤laneの相方になれば対面killがすごくラク。
+　
+''&color(Green){敵の足さえ止めれば殴りでダメージを出すヒーロー};''
+|CENTER:[[&ref(image/Huskar.png,64x36);>Huskar]]&br;[[Huskar>Huskar]]|CENTER:[[&ref(image/Riki.png,64x36);>Riki]]&br;[[Riki>Riki]]|CENTER:[[&ref(image/Ursa.png,64x36);>Ursa]]&br;[[Ursa>Ursa]]|CENTER:[[&ref(image/ShadowFiend.png,64x36);>Shadow Fiend]]&br;[[Shadow Fiend>Shadow Fiend]]|CENTER:[[&ref(image/Spectre.png,64x36);>Spectre]]&br;[[Spectre>Spectre]]|
+carryは後半の殴りダメージがすごい代わりに敵を足止めするスキルを持っていないことが多い。
+彼らの動きを見て、狙うヒーローにpounceすればすごいダメージを出してくれる。
+
+
+**5.2 敵チーム
+　
+''&color(Green){逃げに使えるスキルを持たないhealthの少ないヒーロー};''
+|CENTER:[[&ref(image/CrystalMaiden.png,64x36);>Crystal Maiden]]&br;[[Crystal Maiden>Crystal Maiden]]|CENTER:[[&ref(image/Jakiro.png,64x36);>Jakiro]]&br;[[Jakiro>Jakiro]]|CENTER:[[&ref(image/Silencer.png,64x36);>Silencer]]&br;[[Silencer>Silencer]]|CENTER:[[&ref(image/Warlock.png,64x36);>Warlock]]&br;[[Warlock>Warlock]]|CENTER:[[&ref(image/AncientApparition.png,64x36);>Ancient Apparition]]&br;[[Ancient Apparition>Ancient Apparition]]|
+敵にいるなら完全にエサ。ミニマップに映るたびに殺そう。
+　
+　
+''&color(Red){逃げスキル持ち};''
+|CENTER:[[&ref(image/AntiMage.png,64x36);>Anti-Mage]]&br;[[Anti-Mage>Anti-Mage]]|CENTER:[[&ref(image/Morphling.png,64x36);>Morphling]]&br;[[Morphling>Morphling]]|CENTER:[[&ref(image/Weaver.png,64x36);>Weaver]]&br;[[Weaver>Weaver]]|CENTER:[[&ref(image/FacelessVoid.png,64x36);>Faceless Void]]&br;[[Faceless Void>Faceless Void]]|CENTER:[[&ref(image/QueenofPain.png,64x36);>Queen of Pain]]&br;[[Queen of Pain>Queen of Pain]]|
+slarkはstunもsilenceもないのですぐ逃げられる。
+敵に多いなら[[&ref(image/item/Orchid Malevolence.png,nolink,22x16);>Orchid Malevolence]]Orchid Malevolenceが有効な武器になる。
+　
+　
+''&color(Red){carry};''
+|CENTER:[[&ref(image/Sven.png,64x36);>Sven]]&br;[[Sven>Sven]]|CENTER:[[&ref(image/Alchemist.png,64x36);>Alchemist]]&br;[[Alchemist>Alchemist]]|CENTER:[[&ref(image/AntiMage.png,64x36);>Anti-Mage]]&br;[[Anti-Mage>Anti-Mage]]|CENTER:[[&ref(image/FacelessVoid.png,64x36);>Faceless Void]]&br;[[Faceless Void>Faceless Void]]|CENTER:[[&ref(image/Phantom Assassin.png,64x36);>Phantom Assassin]]&br;[[Phantom Assassin>Phantom Assassin]]|
+carry相手に立ち止まってまともに殴り合うことはできない
+　
+　
+''&color(Red){nuke持ち};''
+|CENTER:[[&ref(image/Lina.png,64x36);>Lina]]&br;[[Lina>Lina]]|CENTER:[[&ref(image/Lion.png,64x36);>Lion]]&br;[[Lion>Lion]]|CENTER:[[&ref(image/item/Dagon.png,48x36);>Dagon]]&br;[[Dagon>Dagon]]|
+AoEスタンからのnukeはマジ勘弁。
+　
+**5.3 相性まとめ
+特に何人かのヒーローを挙げたけど、相性いいから、悪いからといって必ずkill取れたり負けたりするわけではない。2人以上でgank行くこともよくあるし、相手の操作ミスもある。3番のおかげでtankすら殴り殺せることもある。この一覧を特に気にせずガンガン行っちゃって問題なし。
+''一番悪いのはgankをしないgankerになること''。
+　
+でも、さすがに終盤のcarryと殴り合うのは無理！
+　
+　
+*6 VS slark
+決定的なslark対策はない。他の厄介なヒーローと同様に早期にgankしよう。6になるとharassの効果がほとんどなくなり、stunやnukeスキルが十分に仕上がってないせいで殺せなくなる。そのままgankに回られると止められなくなってしまう。
+早い段階でgankして稼ぎを遅らせるか、出会ったらstunやnukeを重ねてしっかり殺し切ろう。逃がすとultですぐ回復するし、スキルのmanaとCDも無駄になっちゃう。''gankしないまま終盤まで放っておくと、手が付けられなくなる''。
+
+また、多くのsupport heroで[[&ref(image/Force Staff.png,nolink,22x16);>Force Staff]]Force Staffを作ると思うが、pounceされてもヒモ引きちぎって逃げられるので有効に使おう。
+逃げる時もまっすぐ逃げるんじゃなくて、右に左にフェイントを入れつつ逃げよう。
+　
+
+
+*7 さいごに
+
+初心者にもわかりやすく、と思いつつ細かく書いたらめちゃくちゃ長くなっちゃった。大事な所は太字とかにしてるので適当にななめ読みしちゃってください。
+まさか、全部読んでくれた人がいたならありがとう。読んでなくてもクリックしてくれてありがとう。
+　
+がんばれ、若きdota2プレーヤー！
+　
+pubstompできたら↓投票してね
+　
+**7.1 サンクス
+
+[[BHビルドの人:http://wikiwiki.jp/dota2/?Bounty%20Hunter%2FBuild-Utility]]
+レイアウト参考にさせていただきました。ありがとうございます。
+　
+http://dota2.gamepedia.com/Slark
+　
+[[dotafire slark build:http://www.dotafire.com/dota-2/guides?sort_type=modify_ts&hero_id=96]]
+　
+このビルドを書くために、私のslarkのナイフの錆になってくれた、すべての野良プレイヤーに感謝。
+　
+**8 評価
+#vote2(参考になる,参考にならない,pubstompした,notimestamp)
+
+**コメント
+#pcomment(reply)

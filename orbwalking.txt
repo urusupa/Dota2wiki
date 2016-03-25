@@ -1,0 +1,155 @@
+Orb-walking
+
+Heroes with a castable Unique Attack Modifier are often known for being able to chase a fleeing enemy hero 
+more effectively due to a mechanic known as orb-walking.
+
+Hero attacks have a part of the animation called the backswing,
+which delays your next action, 
+but can be cancelled without preventing the attack from inflicting damage to allow for a faster recovery from the attack animation. 
+However, if you cancel a standard attack too early, no damage will be dealt.
+The advantage of a Unique Attack Modifier is that since it is considered a cast animation, 
+
+it cannot be cancelled by issuing another command during the important part of the animation. 
+If a command is issued during the animation, prior to the attack point, the backswing animation will be negated entirely, 
+allowing the hero to continue chasing their target as efficiently as possible. 
+
+Without a Unique Attack Modifier this is theoretically possible, but extremely difficult, 
+since you would have to issue the move command at the precise moment that the attack point is reached.
+
+
+ヒーローが放つUnique Attack Modifierは逃げる敵ヒーローを追撃しやすくする使い方がよく知られている。
+オーブウォーキングという技術によって、さらに効果的になる。
+
+ヒーローの攻撃アニメーションの一部としてbackswing（振り抜き）という動作を持っている。
+これはヒーローの次の行動を遅れさせる。
+ただし攻撃モーション中に素早くリカバリすることによって、攻撃を妨げることなく、攻撃モーション（backswing）のみをキャンセルすることができる
+しかしながら、もしも攻撃アニメーションのキャンセルが早すぎる場合はダメージも与えることができなくなる。
+Unique Attack Modifierでの攻撃の利点はこのキャストアニメーションにある。
+
+攻撃アニメーションの重要な部分の最中に、別コマンドを差し込んでキャンセルすることはできない。
+攻撃アニメーション中にコマンドが入力された場合、attack pointより先に差し込まれる。この時、backswingアニメーションは完全に無くなる。
+これによって可能な限り効率的にターゲットを追い続けることができる。
+
+Unique Attack Modifierが無くても理論的には可能だが、非常に難しい
+なぜなら、攻撃モーションが終わりattack point（通常攻撃の振りかぶり）が始まるまでに、移動コマンドを差し込まなければならないからである。
+
+※通常攻撃の、振りかぶり・振り抜きモーションよりも、スキルの発射前・後動作時間の方が短いことを利用したテクニック。
+agiが十分に高ければオートアタックの方が早い。（通常攻撃振りかぶり＋振り抜き動作時間＜スキル発射前動作時間の場合）
+
+http://dota2.gamepedia.com/Orbwalk#Orb-walking
+
+Harassing
+
+
+Typically when you right-click on an enemy hero, the nearby (500 radius) creeps will aggro you, and attack you. 
+When you cast spells on enemy heroes this is not the case. 
+Using this to harass is often incorrectly referred to as "orb-walking".
+
+Harassing with orb effects involves using abilities that have Unique Attack Modifiers. 
+Select the ability once and click on an enemy hero, this is now considered casting an ability; 
+nearby enemy creeps will not attack you. 
+
+You can repeat this as many times as wanted. 
+Right clicking the ground to move in between casts of your Unique Attack Modifier is where the 'walk' comes in, 
+and allows you to land more attacks on a fleeing enemy.
+
+Conversely, if you enable auto-cast for the Unique Attack Modifier and right-click on a hero, creeps will attack you.
+
+
+一般的にあなたが敵ヒーローを右クリックした時、あなたの半径500にいるクリープのaggroはあなたへ向き攻撃を始める。
+スペルを放った時はこの場合にあてはまらない。
+（クリープは全員視界を共有しているが、突っ立てるだけなら攻撃優先順位の決定ロジックでは優先度低なので攻撃されない。）
+これを利用したハラステクニックが、"orb-walking"としてよく勘違いされている。
+Unique Attack Modifiersのスキルを使ったハラスも含む、
+スキルを選択し敵をクリックしてスキルを発動すると、近くの敵クリープはあなたを攻撃しない、そういうものだと考えられている
+
+あなたは敵クリープに殴られることなくUnique Attack Modifier攻撃を好きなだけ繰り返すことができる。
+Unique Attack Modifierをキャストする合間に地面を右クリックしてムーブオーダーを差し込むと、
+逃げる敵により多くの攻撃を叩き込むことができる。
+
+これが、Orb-walkingによるHarassである。
+
+逆にUnique Attack Modifierスキルを有効化したまま敵ヒーローを右クリックするとクリープに攻撃される。
+
+http://dota2.gamepedia.com/Orbwalk#Harassing
+
+
+
+
+
+Lane creeps
+
+Lane creeps target first enemy lane creeps, 
+secondly enemy heroes, 
+and lastly enemy siege creeps. 
+
+Nearby creeps will report their aggro on you if you attack an enemy hero (or attack click an enemy hero), 
+allowing you to bring them behind your own creeps in order to farm more safely. 
+
+Lane creeps can also follow you very far, 
+inside the jungle and even as far as another lane. 
+
+They stop chasing you if they lose sight of you for a long time.
+
+
+レーンクリープは敵レーンクリープを第一ターゲットとする。
+次に敵ヒーロー、最後に敵シージクリープを狙う。
+あなたが敵ヒーローを攻撃orアタックムーブした時、近くの敵クリープはあなたにaggroを向ける。
+自軍クリープの後ろに位置すると、より安全なファームができる。
+敵レーンクリープは、ジャングルの中や他のレーンのようにとても遠くからあなたを追うこともできる。
+
+彼らは長い間あなたへの視界を失った時、追うのをやめる。
+
+http://dota2.gamepedia.com/Aggro
+
+
+
+
+
+
+
+----------------------------------------------------
+
+
+#br
+* おまけ.Orb-walkingによるクリープアグロを利用したHarass
+
+一般的にあなたが敵ヒーローを右クリックした時、あなたの半径500にいるクリープのaggroはあなたへ向き攻撃を始める。
+スペルを放った時はこの場合にあてはまらない。
+（クリープは全員視界を共有しているが、突っ立てるだけなら攻撃優先順位の決定ロジックでは優先度低なので攻撃されない。）
+これを利用したハラステクニックが、"orb-walking"としてよく勘違いされている。
+Unique Attack Modifiersのスキルを使ったハラスも含む、
+スキルを選択し敵をクリックしてスキルを発動すると、近くの敵クリープはあなたを攻撃しない、そういうものだと考えられている。
+
+#br
+あなたは敵クリープに殴られることなくUnique Attack Modifier攻撃を好きなだけ繰り返すことができる。
+Unique Attack Modifierをキャストする合間に地面を右クリックして敵に近づいていけば、逃げる敵により多くの攻撃を叩き込むことができる。
+
+これが、Orb-walkingによるHarassである。
+
+逆にUnique Attack Modifierスキルを有効化したまま敵ヒーローを右クリックするとクリープに攻撃される。
+
+http://dota2.gamepedia.com/Orbwalk#Harassing
+
+#region(Orb-walking)
+''Orb-walking''
+ヒーローが放つUnique Attack Modifierは逃げる敵ヒーローを追撃しやすくする使い方がよく知られている。
+オーブウォーキングという技術によって、さらに効果的になる。
+
+#br
+ヒーローの攻撃アニメーションの一部としてbackswing（振り抜き）という動作を持っている。これはヒーローの次の行動を遅れさせる。
+ただし攻撃モーション中に素早くリカバリすることによって、攻撃を妨げることなく、攻撃モーション（backswing）のみをキャンセルすることができる。しかしながら、もしも攻撃アニメーションのキャンセルが早すぎる場合はダメージも与えることができなくなる。Unique Attack Modifierでの攻撃の利点はこのキャストアニメーションにある。
+
+#br
+攻撃アニメーションの重要な部分の最中に、別コマンドを差し込んでキャンセルすることはできない。
+攻撃アニメーション中にコマンドが入力された場合、attack point（通常攻撃の振りかぶり）より先に差し込まれる。この時、backswingアニメーションは完全に無くなる。これによって可能な限り効率的にターゲットを追い続けることができる。
+
+#br
+Unique Attack Modifierが無くても理論的には可能だが、難しい。なぜなら、攻撃モーションが終わりattack point（通常攻撃の振りかぶり）が始まるまでに、移動コマンドを差し込まなければならないからである。
+
+#br
+※通常攻撃の、振りかぶり・振り抜きモーションよりも、スキルの発射前・後動作時間の方が短いことを利用したテクニック。agiが十分に高ければオートアタックの方が早い。（通常攻撃振りかぶり＋振り抜き動作時間＜スキル発射前動作時間の場合）
+
+http://dota2.gamepedia.com/Orbwalk#Orb-walking
+
+#endregion

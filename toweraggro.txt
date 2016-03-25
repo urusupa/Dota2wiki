@@ -1,0 +1,80 @@
+
+Tower
+
+タワーは敵を攻撃する際、対象を決定する特徴的な方法を持っている。
+下のリストは降順で優先順位を表している
+※ユニット：クリープ ＆ カタパルト ＆ ヒーローにコントロールされているクリープ
+
+1.友軍のヒーローをオートアタックしている敵ヒーローかユニット
+2.タワー（自分）を攻撃している敵ヒーローかユニット
+3.友軍のユニットをオートアタックしている敵ヒーローかユニット
+4.敵ユニット
+5.敵ヒーロー
+6.敵カタパルト
+上の条件にあてはまる最も近い敵ユニット攻撃する。
+
+タワーは下記4つの条件でのみターゲットを切り替える。
+
+攻撃対象の敵ヒーローかユニットが、攻撃範囲外となった時
+攻撃対象の敵ヒーローかユニットが、死亡した時
+攻撃対象の敵ヒーローかユニットが、（そのヒーローの）味方を攻撃対象とした時
+攻撃対象の敵ヒーローが、（そのヒーローの）味方から攻撃対象となった時（この場合、タワーは上記優先順位によって新しいターゲットを決定する。）
+
+http://dota2.gamepedia.com/Aggro
+
+
+
+
+Towers
+
+Towers have a specific targeting priority that determines which enemy it will attack.
+ This list represents that priority in descending order:
+
+
+Closest enemy unit or hero attacking a friendly hero with auto attack
+Closest enemy unit or hero attacking the tower itself with auto attack
+Closest enemy unit or hero attacking any friendly unit with auto attack
+Closest enemy unit
+Closest enemy hero
+Closest enemy catapult
+
+
+The tower will only switch targets under four circumstances:
+
+If the targeted enemy unit or hero goes out of range
+If the targeted enemy unit or hero dies
+If an enemy unit or hero targets a friendly hero
+If an enemy hero being attacked by the tower manually attacks another enemy unit or hero (in which case, the tower will select a new target based on the above priority order).
+
+
+
+
+
+#region(タワーの攻撃優先順位)
+''Tower''
+
+
+タワーは敵を攻撃する際、対象を決定する特徴的な方法を持っている。
+下のリストは降順で優先順位を表している。
+※ユニット：クリープ ＆ カタパルト ＆ ヒーローにコントロールされているクリープ
+
++友軍のヒーローをオートアタックしている敵ヒーローかユニット
++タワー（自分）を攻撃している敵ヒーローかユニット
++友軍のユニットをオートアタックしている敵ヒーローかユニット
++敵ユニット
++敵ヒーロー
++敵カタパルト
+
+上の条件にあてはまる最も近い敵ユニット攻撃する。
+#br
+
+タワーは下記4つの条件でのみターゲットを切り替える。
+-攻撃対象の敵ヒーローかユニットが、攻撃範囲外となった時
+-攻撃対象の敵ヒーローかユニットが、死亡した時
+-攻撃対象の敵ヒーローかユニットが、（そのヒーローの）味方を攻撃対象とした時
+-攻撃対象の敵ヒーローが、（そのヒーローの）味方から攻撃対象となった時（この場合、タワーは上記優先順位によって新しいターゲットを決定する。）
+#br
+
+http://dota2.gamepedia.com/Aggro
+
+#endregion

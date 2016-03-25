@@ -1,0 +1,317 @@
+
+
+初心者に聞かれて説明する機会があってちょうどいいので上げときます。これからTI5も始まるし初心者は観戦の参考にしてね。
+
+1to5systemっていうのは、ヒーローやロールじゃなくてお金への依存度で決まります。
+試合が終わった時に統計を見ると、この番号順に総資産が偏ってるようにチームで動く基準となる考え方です。
+
+こういうのはパッチでどんどん変わるから、まさに今の適正ヒーローっていうのはプロの配信や大会のストリームからつかんでいくしかない。
+
+書き方が不評ならちゃんと書きます。
+---------------------
+2012年ごろの記事やさかい、参考程度にしてや。
+
+http://www.liquiddota.com/forum/dota-2-strategy/454943-dota-1-to-5-system
+
+Obviously this is not the only way to play DotA, and should not be taken as such. 
+This is an overview of a popular team composition. Many heroes can be played in many roles, and item builds are just as diverse
+これはdota2をプレイする唯一の方法やなく、また、そのようにとらえられるべきものではないんや。
+これは単なる、人気のあるチーム構成の概要やねん、ほんまいうとヒーローたちはさまざまなロールや、アイテムビルドでゲームを楽しむことができるんよ。
+
+
+Previously a Chinese system, the 1-to-5 system is a general model of how a DotA team is structured. 
+The structure itself is pretty simple, the lower the number, the higher priority they have on farming gold and experience. 1 being the highest priority and 5 being the lowest.
+1to5システムっちゅうもんはDotAのチームが考え出したもんなんやけどな、昔は中国チームでよくやるシステムやったんや。
+仕組みはえらい簡単でな、ゼニと経験値の優先度やねん。若いもんが最優先で、年寄りの方は最低っちゅうこっちゃな。
+
+
+Where it gets interesting, is how do you know which position a hero should play, and how to play that position effectively. 
+This post won’t talk about how to lane your composition correctly
+これのおもろいとことことか、ヒーローをどのポジションで運用すべきか、どのポジションが効果的なのか、っちゅうことを話していくで。
+この投稿では"正しいレーン構成"のお話はせんさかいな？ええな？
+
+
+
+Positions:
+ポジション
+
+1
+
+A hero in the 1 position means that they have the highest priority for levels and gold on your team. 
+This is your ‘hard carry’.
+ Heroes that fall into this category are the most item and level dependent on your team.
+  They deal a ton of damage later in the game, and generally build towards damage and survivability.
+1番のヒーローはチーム内で最もゼニと経験値を稼ぐヒーローやねん。"ハードキャリー"いうやつやな。
+このカテゴリに入るヒーローはな、ぎょうさんのアイテムやレベルはあんたのチームに依存しとるんや。
+ほんで、レートゲームではえらいダメージを叩き出しよるし、一般的にはそのための武器と生き残るためのアイテムを買うんや。
+
+
+ヒーローの例を挙げるならこんな感じやな
+[[&ref(image/AntiMage.png,80x45);>Anti-Mage]] [[&ref(image/Chaos Knight.png,80x45);>Chaos Knight]] [[&ref(image/DragonKnight.png,80x45);>Dragon Knight]] [[&ref(image/Lone Druid.png,80x45);>Lone Druid]] [[&ref(image/Morphling.png,80x45);>Morphling]] [[&ref(image/Naga Siren.png,80x45);>Naga Siren]]
+
+アイテムはこんな感じや。
+[[&ref(image/item/Battle Fury.png,40x30);>Battle Fury]] [[&ref(image/item/Butterfly.png,40x30);>Butterfly]] [[&ref(image/item/Black King Bar.png,40x30);>Black King Bar]] [[&ref(image/item/Manta Style.png,40x30);>Manta Style]] [[&ref(image/item/Radiance.png,40x30);>Radiance]]
+
+
+2
+
+The 2 position means that they have the second most need for gold and levels. 
+The reasons can vary, but in general they should be farming any lane that isn’t occupied by your 1.
+ The 2 generally builds toward initiation and survivability items, though some heroes benefit from damage items as well
+2番はゼニや経験値を二番目に必要としてるっちゅうことやけど、まあそのままやな。
+まあいうても理由はいろいろあるけど、1番がおらんレーンでファームせなあかんのやわ。
+ビルドは一般的にイニシエートと生存能力を確保する方向で揃えて、他のヒーローのダメージやアイテム効果を生かす感じにするんや。
+
+
+
+ヒーローの例を挙げるならこんな感じやな
+[[&ref(image/Tinker.png,80x45);>Tinker]] [[&ref(image/Rubick.png,80x45);>Rubick]] [[&ref(image/QueenofPain.png,80x45);>Queen of Pain]] [[&ref(image/Nature'sProphet.png,80x45);>Nature's Prophet]] [[&ref(image/Leshrac.png,80x45);>Leshrac]] [[&ref(image/Invoker.png,80x45);>Invoker]] [[&ref(image/Brewmaster.png,80x45);>Brewmaster]]
+
+アイテムはこんな感じや。
+[[&ref(image/item/Aghanim's Scepter.png,40x30);>Aghanim's Scepter]] [[&ref(image/item/Scythe of Vyse.png,40x30);>Scythe of Vyse]] [[&ref(image/item/Force Staff.png,40x30);>Force Staff]] [[&ref(image/item/Blink Dagger.png,40x30);>Blink Dagger]]
+
+3
+
+The third most farm dependent on your team, 
+generally builds toward team fight/support items such as Pipe/Drum or initiation items.
+ 3 is generally item independent for most damage.
+あんたのチームのファームで稼ぐゼニは3番までのヒーローがほとんどを占めるんや。
+一般系なビルドはチームファイトやそれをサポートするアイテムを持つで。たとえばパイプやドラムみたいなもんや。
+3番の持つアイテムは直接ダメージを与えたりするもんやない事が多いで。
+
+
+ヒーローの例を挙げるならこんな感じやな
+[[&ref(image/Windrunner.png,80x45);>Windranger]] [[&ref(image/Beastmaster.png,80x45);>Beastmaster]] [[&ref(image/Puck.png,80x45);>Puck]] [[&ref(image/Enigma.png,80x45);>Enigma]] [[&ref(image/DarkSeer.png,80x45);>Dark Seer]]
+
+アイテムはこんな感じや。
+[[&ref(image/item/Aghanim's Scepter.png,40x30);>Aghanim's Scepter]] [[&ref(image/item/Pipe of Insight.png,40x30);>Pipe of Insight]] [[&ref(image/item/Ghost Scepter.png,40x30);>Ghost Scepter]] [[&ref(image/item/Force Staff.png,40x30);>Force Staff]]
+
+4
+
+As secondary support on the team, 
+the 4 will build towards the cheaper team fight items like Drum/Mek. 
+The 4 helps on pure support items such as wards, smoke, dust when the 5 cannot afford it.
+4番はチームのサブサポートみたいなもんや。
+ビルドはチームのためになる安めのアイテムを買っていくんや。まあドラムやメカみたいなもんやな。
+ほんで、5番のサポートの懐に余裕がない時はそれを助けるために、ワード、スモーク、ダストなんかも買うで。
+
+
+ヒーローの例を挙げるならこんな感じやな
+[[&ref(image/Tidehunter.png,80x45);>Tidehunter]] [[&ref(image/SandKing.png,80x45);>Sand King]] [[&ref(image/Earthshaker.png,80x45);>Earthshaker]] [[&ref(image/Enchantress.png,80x45);>Enchantress]] [[&ref(image/Chen.png,80x45);>Chen]]
+
+アイテムはこんな感じや。
+[[&ref(image/item/Observer Ward.png,40x30);>Observer Ward]] [[&ref(image/item/Sentry Ward.png,40x30);>Sentry Ward]] [[&ref(image/item/Mekansm.png,40x30);>Mekansm]] [[&ref(image/item/Drum of Endurance.png,40x30);>Drum of Endurance] [[&ref(image/item/Blink Dagger.png,40x30);>Blink Dagger]]
+
+5
+
+The 5 mainly uses money on pure support items such as wards, smoke, dust, 
+and sometimes regen and teleports for the 1-2 heroes. 
+It is not uncommon to see a 5 hero purchase nothing more than a boots and a wand for themselves the entire game.
+
+5番は主にワード、スモーク、ダストにゼニを使うんや。
+ほんで、たまにリジェネアイテム（tango、salve）やらtpを1番2番ヒーローに買うたるんや。
+ようけ試合を見とるとわかるけども、5番のヒーローはブーツとマジックワンド以外になんも装備を持たんっちゅうのもよくあることなんやわ。
+
+ヒーローの例を挙げるならこんな感じやな
+[[&ref(image/Venomancer.png,80x45);>Venomancer]] [[&ref(image/Shadow Demon.png,80x45);>Shadow Demon]] [[&ref(image/Lich.png,80x45);>Lich]] [[&ref(image/CrystalMaiden.png,80x45);>Crystal Maiden]] [[&ref(image/AncientApparition.png,80x45);>Ancient Apparition]]
+
+アイテムはこんな感じや。
+[[&ref(image/item/Observer Ward.png,40x30);>Observer Ward]] [[&ref(image/item/Sentry Ward.png,40x30);>Sentry Ward]] [[&ref(image/item/Urn of Shadows.png,40x30);>Urn of Shadows]] [[&ref(image/item/Medallion of Courage.png,40x30);>Medallion of Courage]]
+
+EDIT: This is just an overview, not intended as a thorough guide. 
+Most heroes can be played in multiple positions. 
+Position does not always correspond 1:1 with role.
+ The 1-to-5 is the priority on gold and experience, which can shift during the game. 
+ Once your Sand King or Tidehunter hits level 6, and/or gets blink, their priority drops significantly.
+  This is often seen with running AA mid (not too common anymore). 
+  Once AA hits 6, he will rotate out of mid, and another hero will take the solo gold/experience.
+
+これらはほんまに概要としてまとめただけのもんで、完全オススメガイドちゃうねん。
+ほとんどのヒーローはいろんなポジションを担えるし、ヒーローやロールとポジションは1:1で対応してるわけちゃう。
+しかも、1to5システムの優先順位っちゅうのはゲーム中によう変わるねん。
+たとえば、サンドキングとかタイドハンターがレベル6になったり、その上ブリンクダガーを持ったとしたら、
+優先順位は大幅に落ちてまうんやな。
+最近やとほとんど見いへんけどエンシェントアパリションのミッドレーンもおんなじような感じやな。
+エンシェントアパリションをっささとレベル6にしたら、midの交代やレーンの変更で別にヒーローに儲けさすっちゅうわけや。
+
+
+
+-----------------
+
+
+http://wiki.teamliquid.net/dota2/Farm-dependency#1-to-5_System
+
+liquidpediaより。
+上の記事を元にある程度メンテナンスされてる記事や。
+それでもそこそこ古いで。
+しっかりメンテナンスされたのは2015年2月ごろみたいや。
+
+Farm-dependency is the measure used to describe how reliant a hero is on gold income. 
+Some thrive when they have the money to buy big items - these are called carry heroes. 
+Others don't require much in terms of items and mainly rely on their spells to be useful - these are usually called support heroes. 
+There is also a whole range of heroes that fit on the spectrum between the two extremes.
+
+ファーム依存度いうてな、ヒーローが強くなるためになんぼほどゼニが必要かっちゅう尺度があるんや。
+ごっついアイテムを買うためにぎょうさん稼ぐヒーローがおってな、それがキャリーて呼ばれとるやつらのことや。
+逆に、ゼニもアイテムも稼がへんへん、おのれのスキルがごっつい有用なヒーローもおって、それはだいたいサポートや言われとる。
+その2つの間に位置するヒーローもぎょうさんおってな、そない両極端なもんやないんや。
+
+
+
+When a hero is very income dependent, 
+it's in the best interest of the team to let him farm. 
+He is designated to take the last hits in a lane, 
+often supported by one or more teammates to ensure the enemies cannot harass or deny him.
+
+あるヒーローの強さがゼニや経験値にえらい依存しとる時、そいつにファームをさせるとチーム全体の利益になるんや。
+そいつはレーン上でラストヒットをぎょうさん取るようチーム内で決められとるわけや。
+せやさかい、敵にハラスやデナイされないように1人以上のサポートが付いて助けたるっちゅうわけや。
+
+
+Farm dependency is a good measure to use when making a team composition.
+ It defines five positions that need to be filled by five heroes and assigns a number to every position related to the measure of farm dependency. 
+ A good team composition requires that all five positions are filled by a different hero.
+
+ファーム依存度っちゅう尺度はチームの構成を決めるのにちょうどええもんやねん。
+ファーム依存度の高低に従って5人のヒーローの5つの数字を割り当てるっちゅうわけや。
+いいチーム構成っちゅうもんは、5つのポジションがそれぞれ違うタイプのヒーローであるべきなんやわ。
+
+
+First Position
+
+Heroes in position 1 have the highest priority for levels and gold on your team - the "hard carry". 
+Heroes that fall into this category are usually the weakest on the team before they have an item or two. 
+They often have a steroid ability that lets them scale well with bonus stats gained from items,
+ allowing them to deal a ton of damage later in the game. Position 1 heroes are usually placed in the safe lane, 
+ with one or more support heroes to babysit them.
+
+1番のヒーローはファーム依存度がべらぼうに高い。ザ・ハードキャリーやな。
+このカテゴリに入るヒーローは、アイテムを1,2個持つまではチームで最弱のヒーローなんやわ。
+彼らはステロイドみたいなスキルをよう持っとってな、アイテムによる強化をさらに上乗せで伸ばすことができるんやわ。
+そのおかげで、彼らはレートゲームでこそ、とんでもないダメージを叩き出すことができるわけやな。
+1番のヒーローは通常セーフレーンに配置されて一人かそれ以上のベビーシッターが付くで。
+
+Common Heroes
+[[&ref(image/AntiMage.png,80x45);>Anti-Mage]] [[&ref(image/Juggernaut.png,80x45);>Juggernaut]] [[&ref(image/Medusa1.png,80x45);>Medusa]]
+
+Common Items
+[[&ref(image/item/Battle Fury.png,40x30);>Battle Fury]] [[&ref(image/item/Hand of Midas.png,40x30);>Hand of Midas]] [[&ref(image/item/Black King Bar.png,40x30);>Black King Bar]] [[&ref(image/item/Mjollnir.png,40x30);>Mjollnir]]
+
+
+Second Position
+Heroes in position 2 have the second most need for gold and levels. 
+The reasons can vary, but in general they should be farming any lane that isn’t occupied by your 1.
+ The 2 generally builds toward initiation and survivability,
+  though some assume a secondary carry role by building towards damage. 
+  Position 2 heroes generally go to mid lane and will use their high gold income and level to control the pace of the game.
+
+2番はゼニや経験値を二番目に必要としてるっちゅうことやけど、まあそのままやな。
+まあいうても理由はいろいろあるけど、1番がおらんレーンでファームせなあかんのやわ。
+ビルドは一般的にイニシエートと生存能力を確保する方向で揃えて、
+同時に、ある程度のダメージを出してサブのキャリーとして動くんや。
+2番のヒーローは一般的には、ミッドレーンに行ってゲームのペースをコントロールしつつゼニと経験値を稼ぐんや。
+
+Common Heroes
+[[&ref(image/Invoker.png,80x45);>Invoker]] [[&ref(image/Pudge.png,80x45);>Pudge]] [[&ref(image/ShadowFiend.png,80x45);>Shadow Fiend]]
+
+Common Items
+[[&ref(image/item/Blink Dagger.png,40x30);>Blink Dagger]] [[&ref(image/item/Bottle.png,40x30);>Bottle]] [[&ref(image/item/Black King Bar.png,40x30);>Black King Bar]] [[&ref(image/item/Aghanim's Scepter.png,40x30);>Aghanim's Scepter]]
+
+Third Position
+The third most farm dependent on your team generally builds toward team fight/support items such as Mekansm and Pipe of Insight or initiation items such as Blink Dagger. 
+3 is often placed in the offlane where his main goal is to gain levels.
+
+あんたのチームのファームで稼ぐゼニは3番までのヒーローがほとんどを占めるんや。
+一般系なビルドはチームファイトやそれをサポートするアイテムを持つで。
+たとえばメカンズムやパイプやブリンクダガーみたいなイニシエートアイテムや。
+3番はほとんどの場合オフレーンに配置されて、主な目標はレベルを上げることやで。
+
+Common Heroes
+[[&ref(image/Centaur Warrunner.png,80x45);>Centaur Warrunner]] [[&ref(image/Bristleback.png,80x45);>Bristleback]] [[&ref(image/Clockwerk.png,80x45);>Clockwerk]]
+
+Common Items
+[[&ref(image/item/Blink Dagger.png,40x30);>Blink Dagger]] [[&ref(image/item/Pipe of Insight.png,40x30);>Pipe of Insight]] [[&ref(image/item/Crimson Guard.png,40x30);>Crimson Guard]] [[&ref(image/item/Mekansm.png,40x30);>Mekansm]]
+
+Fourth Position
+As the secondary support on the team,
+ the 4 will build towards cheaper items that benefit the team such as Urn of Shadows or Force Staff. 
+ The 4 helps with pure support items such as Observer Wards, Smoke of Deceit and Dust of Appearance when the 5 cannot afford to.
+
+4番はチームのサブサポートみたいなもんや。
+ビルドはチームのためになる安めのアイテムを買っていくんや。まあアーン（壺）やフォーススタッフみたいなもんやな。
+ほんで、5番のサポートの懐に余裕がない時はそれを助けるために、ワード、スモーク、ダストなんかも買うで。
+
+
+Common Heroes
+[[&ref(image/Earthshaker.png,80x45);>Earthshaker]] [[&ref(image/Lion.png,80x45);>Lion]] [[&ref(image/WitchDoctor.png,80x45);>Witch Doctor]]
+
+Common Items
+[[&ref(image/item/Observer Ward.png,40x30);>Observer Ward]] [[&ref(image/item/Urn of Shadows.png,40x30);>Urn of Shadows]] [[&ref(image/item/Force Staff.png,40x30);>Force Staff]] [[&ref(image/item/Medallion of Courage.png,40x30);>Medallion of Courage]]
+
+Fifth Position
+The 5 uses gold on mainly pure support items such as wards, smoke, dust and sometimes regen and TP scrolls for the 1-2 heroes. 
+It is not uncommon to see a hero purchase nothing more than Boots of Speed and a Magic Stick for themselves over the entire game.
+5番は主にワード、スモーク、ダストにゼニを使うんや。
+ほんで、たまにリジェネアイテム（tango、salve）やらtpを1番2番ヒーローに買うたるんや。
+ようけ試合を見とるとわかるけども、5番のヒーローはブーツとマジックワンド以外になんも装備を持たんっちゅうのもよくあることなんやわ。
+
+
+Common Heroes
+[[&ref(image/Lich.png,80x45);>Lich]] [[&ref(image/CrystalMaiden.png,80x45);>Crystal Maiden]] [[&ref(image/ShadowShaman.png,80x45);>Shadow Shaman]]
+
+Common Items
+[[&ref(image/item/Observer Ward.png,40x30);>Observer Ward]] [[&ref(image/item/Sentry Ward.png,40x30);>Sentry Ward]] [[&ref(image/item/Smoke of Deceit.png,40x30);>Smoke of Deceit]][[&ref(image/item/Dust of Appearance.png,40x30);>Dust of Appearance]]
+
+
+
+----------------------
+
+
+こっちは2014年ごろの記事や。
+
+Roles are very important in MOBAs, and there are various ways to describe them. In DOTA 2, there are the common terms used to describe various roles that MOBA players are familiar with. However, there’s also a numbering system that pops up from time to time that beginners may not be familiar with. Upon reading on it further though, people realize that it’s not that hard to understand at all; it’s actually quite simple and ingenious.
+
+The 1-5 system originated in China, where DotA seemed to be played religiously. It has formed the basis for the system that most DotA teams use these days to structure their roster. The concept is very simple, the lower number has higher priority in farming gold and experience. Therefore, 1 needs the most gold and experience, and 5 needs it the least.
+
+This does not denote the importance of the role since all of them are equally important in DOTA 2. However, there are some roles that are more item-dependent than others, and that’s what this system is for. Also remember that these definitions are not strictly followed to the letter, but are merely guidelines that outline basic fundamentals of the game.
+
+Return to Top 1: Carry / Ganker
+The most item-dependent of the time, the 1 position needs to farm gold the most as a result. When successful in getting all the items needed, they deal the most damage later on in the game. They can also serve as initiators of team fights, so they have to become the greatest threat to the opposing team. This position is usually accompanied by a support during laning, which is good for protection against harassment.
+
+Examples: Juggernaut, Anti-Mage, Tidehunter
+
+Return to Top 2: Mid-laner
+This position farms wherever the 1 player isn’t since both of you need a lot of gold and experience to succeed. This position tends to be in the mid-lane, whether solo or with a support. He may also off-lane, although the mid-lane is usually a bit too important to abandon most of the time.
+
+This position tends to be best for semi-carries and they get access to top and bottom in case he’s needed. This map control makes him a threat in the early and mid stages of the game.
+
+Once the late game starts coming around, this position takes on a more supportive role, but is still crucial in team fights by contributing additional DPS to take out the opposing team.
+
+Examples: Queen of Pain, Rubick, Lina, Silencer
+
+Return to Top 3: Off-laner
+The one who works the suicide lane (top for Radiant, bottom for Dire) fits this category. They are also escape heroes, equipped with one or more escape abilities to get out of being damaged that would lead to a gank for the enemy, which makes them perfect for the suicide lane.
+
+They can also farm reasonably well despite sometimes being forced out of lane, which adds to their effectiveness as off-laners. Also, the heroes that best fit this position tend to have abilities that help them be effective in the mid-game, even if they don’t have a lot of gold.
+
+Examples: Puck, Windranger, Dark Seer
+
+Return to Top 4: Jungle / Support
+One of the support positions on the team that work the jungle, killing neutrals for buffs, experience, and gold. This allows for two solo lanes, which are left for the other positions.
+
+A lot of the items that the 4 position acquire are wards, smoke, dust, and so on whenever the one in the 5 position can’t afford them. This is crucial since having a jungler means more susceptibility to ganks and more weakness on the side lanes.
+
+Because of this, the 4 player must be able to leave the jungle and help out allies under threat whenever possible.
+
+Examples: Chen, Enchantress, Enigma, Lifestealer
+
+Return to Top 5: Hard Support
+The least item-dependent of the team, the 5 position is more about bolstering allies and fulfilling other roles to help out the team. They typically buy only boots and a wand for the most part, then get wards, courier, dust, and smoke whenever possible.
+
+They usually accompany the 1 position during the start of the game since the carry tends to be weak and squishy during this time. Since the 5 position doesn’t need that much gold, he can just leave the carry to do the farming while being there to back him up just in case.
+
+Examples: Crystal Maiden, Ancient Apparition, Omniknight
+
+
+
+http://www.cheatmasters.com/blog/2014/08/12/dota-2-%E2%80%93-the-1-5-role-system-guide/

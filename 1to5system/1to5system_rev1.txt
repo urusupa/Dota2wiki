@@ -1,0 +1,229 @@
+&size(20){''1to5system''};
+-------------------------------------------------------------------------
+初心者に聞かれて説明する機会があってちょうどいいので上げときます。これからTI5も始まるし初心者は観戦の参考にしてね。&br;
+1to5systemっていうのは、ヒーローやロールじゃなくてお金への依存度で決まります。
+試合が終わった時に統計を見ると、この番号順に総資産が偏ってるようにチームで動く基準となる考え方です。
+1-5systemとか1to5RoleSystemとか表記ゆれがあるのでググるとき注意。&br;
+こういうのはパッチでどんどん変わるから、まさに今の適正ヒーローっていうのはプロの配信や大会のストリームからつかんでいくしかない。&br;
+
+書き方が不評ならちゃんと書きます。
+
+-------------------------------------------------------------------------
+
+liquidpediaより。
+古い情報（ページ下部）を元にある程度メンテナンスされてる記事や。
+しっかりメンテナンスされたのは2015年2月ごろみたいや。いうてもそこそこ古いわな。&br;
+
+http://wiki.teamliquid.net/dota2/Farm-dependency#1-to-5_System &br;
+&br;
+ファーム依存度いうてな、ヒーローが強くなるためになんぼほどゼニが必要かっちゅう尺度があるんや。
+ごっついアイテムを買うためにぎょうさん稼ぐヒーローがおってな、それがキャリーて呼ばれとるやつらのことや。
+逆に、ゼニもアイテムも稼がへん、おのれのスキルがごっつい有用なヒーローもおって、それはだいたいサポートや言われとる。
+その2つの間に位置するヒーローもぎょうさんおってな、そない両極端なもんやないんや。
+&br;
+
+あるヒーローの強さがゼニや経験値にえらい依存しとる時、そいつにファームをさせるとチーム全体の利益になるんや。
+そいつはレーン上でラストヒットをぎょうさん取るようチーム内で決められとるわけや。
+せやさかい、敵にハラスやデナイされないように1人以上のサポートが付いて助けたるっちゅうわけや。
+&br;
+
+
+ファーム依存度っちゅう尺度はチームの構成を決めるのにちょうどええもんやねん。
+ファーム依存度の高低に従って5人のヒーローに5つの数字を割り当てるっちゅうわけや。
+いいチーム構成っちゅうもんは、5つのポジションがそれぞれ違うタイプのヒーローであるべきなんやわ。
+&br;
+
+*''First Position''
+
+
+1番のヒーローはファーム依存度がべらぼうに高い。ザ・ハードキャリーやな。
+このカテゴリに入るヒーローは、アイテムを1,2個持つまではチームで最弱のヒーローなんやわ。
+彼らはステロイドみたいなスキルをよう持っとってな、アイテムによる強化をさらに上乗せで伸ばすことができるんやわ。
+そのおかげで、彼らはレートゲームでこそ、とんでもないダメージを叩き出すことができるわけやな。
+1番のヒーローは通常セーフレーンに配置されて一人かそれ以上のベビーシッターが付くで。
+
+''Common Heroes''
+[[&ref(image/AntiMage.png,80x45);>Anti-Mage]] [[&ref(image/Juggernaut.png,80x45);>Juggernaut]] [[&ref(image/Medusa1.png,80x45);>Medusa]]
+
+''Common Items''
+[[&ref(image/item/Battle Fury.png,40x30);>Battle Fury]] [[&ref(image/item/Hand of Midas.png,40x30);>Hand of Midas]] [[&ref(image/item/Black King Bar.png,40x30);>Black King Bar]] [[&ref(image/item/Mjollnir.png,40x30);>Mjollnir]]
+&br;
+
+*''Second Position''
+
+
+2番はゼニや経験値を二番目に必要としてるっちゅうことやけど、まあそのままやな。
+まあいうても理由はいろいろあるけど、1番がおらんレーンでファームせなあかんのやわ。
+ビルドは一般的にイニシエートと生存能力を確保する方向で揃えて、
+同時に、ある程度のダメージを出してサブのキャリーとして動くんや。
+2番のヒーローは一般的には、ミッドレーンに行ってゲームのペースをコントロールしつつゼニと経験値を稼ぐんや。
+
+''Common Heroes''
+[[&ref(image/Invoker.png,80x45);>Invoker]] [[&ref(image/Pudge.png,80x45);>Pudge]] [[&ref(image/ShadowFiend.png,80x45);>Shadow Fiend]]
+
+''Common Items''
+[[&ref(image/item/Blink Dagger.png,40x30);>Blink Dagger]] [[&ref(image/item/Bottle.png,40x30);>Bottle]] [[&ref(image/item/Black King Bar.png,40x30);>Black King Bar]] [[&ref(image/item/Aghanim's Scepter.png,40x30);>Aghanim's Scepter]]
+&br;
+
+*''Third Position''
+
+
+あんたのチームのファームで稼ぐゼニは3番までのヒーローがほとんどを占めるんや。
+一般系なビルドはチームファイトやそれをサポートするアイテムを持つで。
+たとえばメカンズムやパイプやブリンクダガーみたいなイニシエートアイテムや。
+3番はほとんどの場合オフレーンに配置されて、主な目標はレベルを上げることやで。
+
+''Common Heroes''
+[[&ref(image/Centaur Warrunner.png,80x45);>Centaur Warrunner]] [[&ref(image/Bristleback.png,80x45);>Bristleback]] [[&ref(image/Clockwerk.png,80x45);>Clockwerk]]
+
+''Common Items''
+[[&ref(image/item/Blink Dagger.png,40x30);>Blink Dagger]] [[&ref(image/item/Pipe of Insight.png,40x30);>Pipe of Insight]] [[&ref(image/item/Crimson Guard.png,40x30);>Crimson Guard]] [[&ref(image/item/Mekansm.png,40x30);>Mekansm]]
+&br;
+
+*''Fourth Position''
+
+
+4番はチームのサブサポートみたいなもんや。
+ビルドはチームのためになる安めのアイテムを買っていくんや。まあアーン（壺）やフォーススタッフみたいなもんやな。
+ほんで、5番のサポートの懐に余裕がない時はそれを助けるために、ワード、スモーク、ダストなんかも買うで。
+
+
+''Common Heroes''
+[[&ref(image/Earthshaker.png,80x45);>Earthshaker]] [[&ref(image/Lion.png,80x45);>Lion]] [[&ref(image/WitchDoctor.png,80x45);>Witch Doctor]]
+
+''Common Items''
+[[&ref(image/item/Observer Ward.png,40x30);>Observer Ward]] [[&ref(image/item/Urn of Shadows.png,40x30);>Urn of Shadows]] [[&ref(image/item/Force Staff.png,40x30);>Force Staff]] [[&ref(image/item/Medallion of Courage.png,40x30);>Medallion of Courage]]
+&br;
+
+*''Fifth Position''
+
+5番は主にワード、スモーク、ダストにゼニを使うんや。
+ほんで、たまにリジェネアイテム（tango、salve）やらtpを1番2番ヒーローに買うたるんや。
+ようけ試合を見とるとわかるけども、5番のヒーローはブーツとマジックワンド以外になんも装備を持たんっちゅうのもよくあることなんやわ。
+
+
+''Common Heroes''
+[[&ref(image/Lich.png,80x45);>Lich]] [[&ref(image/CrystalMaiden.png,80x45);>Crystal Maiden]] [[&ref(image/ShadowShaman.png,80x45);>Shadow Shaman]]
+
+''Common Items''
+[[&ref(image/item/Observer Ward.png,40x30);>Observer Ward]] [[&ref(image/item/Sentry Ward.png,40x30);>Sentry Ward]] [[&ref(image/item/Smoke of Deceit.png,40x30);>Smoke of Deceit]][[&ref(image/item/Dust of Appearance.png,40x30);>Dust of Appearance]]
+
+&br;
+
+#region(古い情報)
+古い情報
+-------------------------------------------------------------------------
+2012年ごろの記事やさかい、参考程度にしてや。
+
+http://www.liquiddota.com/forum/dota-2-strategy/454943-dota-1-to-5-system
+
+&br;
+これはdota2をプレイする唯一の方法やなく、また、そのようにとらえられるべきものではないんや。
+これは単なる、人気のあるチーム構成の概要やねん、ほんまいうとヒーローたちはさまざまなロールや、アイテムビルドでゲームを楽しむことができるんよ。
+&br;
+
+1to5システムっちゅうもんはDotAのチームが考え出したもんなんやけどな、昔は中国チームでよくやるシステムやったんや。
+仕組みはえらい簡単でな、ゼニと経験値の優先度やねん。若いもんが最優先で、年寄りの方は最低っちゅうこっちゃな。
+&br;
+
+これのおもろいとことことか、ヒーローをどのポジションで運用すべきか、どのポジションが効果的なのか、っちゅうことを話していくで。
+この投稿では"正しいレーン構成"のお話はせんさかいな？ええな？
+
+&br;
+
+Positions:
+ポジション
+
+''1''
+
+
+1番のヒーローはチーム内で最もゼニと経験値を稼ぐヒーローやねん。"ハードキャリー"いうやつやな。
+このカテゴリに入るヒーローはな、ぎょうさんのアイテムやレベルはあんたのチームに依存しとるんや。
+ほんで、レートゲームではえらいダメージを叩き出しよるし、一般的にはそのための武器と生き残るためのアイテムを買うんや。
+
+
+ヒーローの例を挙げるならこんな感じやな
+[[&ref(image/AntiMage.png,80x45);>Anti-Mage]] [[&ref(image/Chaos Knight.png,80x45);>Chaos Knight]] [[&ref(image/DragonKnight.png,80x45);>Dragon Knight]] [[&ref(image/Lone Druid.png,80x45);>Lone Druid]] [[&ref(image/Morphling.png,80x45);>Morphling]] [[&ref(image/Naga Siren.png,80x45);>Naga Siren]]
+
+アイテムはこんな感じや。
+[[&ref(image/item/Battle Fury.png,40x30);>Battle Fury]] [[&ref(image/item/Butterfly.png,40x30);>Butterfly]] [[&ref(image/item/Black King Bar.png,40x30);>Black King Bar]] [[&ref(image/item/Manta Style.png,40x30);>Manta Style]] [[&ref(image/item/Radiance.png,40x30);>Radiance]]
+&br;
+
+''2''
+
+
+2番はゼニや経験値を二番目に必要としてるっちゅうことやけど、まあそのままやな。
+まあいうても理由はいろいろあるけど、1番がおらんレーンでファームせなあかんのやわ。
+ビルドは一般的にイニシエートと生存能力を確保する方向で揃えて、他のヒーローのダメージやアイテム効果を生かす感じにするんや。
+
+
+
+ヒーローの例を挙げるならこんな感じやな
+[[&ref(image/Tinker.png,80x45);>Tinker]] [[&ref(image/Rubick.png,80x45);>Rubick]] [[&ref(image/QueenofPain.png,80x45);>Queen of Pain]] [[&ref(image/Nature'sProphet.png,80x45);>Nature's Prophet]] [[&ref(image/Leshrac.png,80x45);>Leshrac]] [[&ref(image/Invoker.png,80x45);>Invoker]] [[&ref(image/Brewmaster.png,80x45);>Brewmaster]]
+
+アイテムはこんな感じや。
+[[&ref(image/item/Aghanim's Scepter.png,40x30);>Aghanim's Scepter]] [[&ref(image/item/Scythe of Vyse.png,40x30);>Scythe of Vyse]] [[&ref(image/item/Force Staff.png,40x30);>Force Staff]] [[&ref(image/item/Blink Dagger.png,40x30);>Blink Dagger]]
+&br;
+
+''3''
+
+
+あんたのチームのファームで稼ぐゼニは3番までのヒーローがほとんどを占めるんや。
+一般系なビルドはチームファイトやそれをサポートするアイテムを持つで。たとえばパイプやドラムみたいなもんや。
+3番の持つアイテムは直接ダメージを与えたりするもんやない事が多いで。
+
+
+ヒーローの例を挙げるならこんな感じやな
+[[&ref(image/Windrunner.png,80x45);>Windranger]] [[&ref(image/Beastmaster.png,80x45);>Beastmaster]] [[&ref(image/Puck.png,80x45);>Puck]] [[&ref(image/Enigma.png,80x45);>Enigma]] [[&ref(image/DarkSeer.png,80x45);>Dark Seer]]
+
+アイテムはこんな感じや。
+[[&ref(image/item/Aghanim's Scepter.png,40x30);>Aghanim's Scepter]] [[&ref(image/item/Pipe of Insight.png,40x30);>Pipe of Insight]] [[&ref(image/item/Ghost Scepter.png,40x30);>Ghost Scepter]] [[&ref(image/item/Force Staff.png,40x30);>Force Staff]]
+&br;
+
+''4''
+
+
+4番はチームのサブサポートみたいなもんや。
+ビルドはチームのためになる安めのアイテムを買っていくんや。まあドラムやメカみたいなもんやな。
+ほんで、5番のサポートの懐に余裕がない時はそれを助けるために、ワード、スモーク、ダストなんかも買うで。
+
+
+ヒーローの例を挙げるならこんな感じやな
+[[&ref(image/Tidehunter.png,80x45);>Tidehunter]] [[&ref(image/SandKing.png,80x45);>Sand King]] [[&ref(image/Earthshaker.png,80x45);>Earthshaker]] [[&ref(image/Enchantress.png,80x45);>Enchantress]] [[&ref(image/Chen.png,80x45);>Chen]]
+
+アイテムはこんな感じや。
+[[&ref(image/item/Observer Ward.png,40x30);>Observer Ward]] [[&ref(image/item/Sentry Ward.png,40x30);>Sentry Ward]] [[&ref(image/item/Mekansm.png,40x30);>Mekansm]] [[&ref(image/item/Drum of Endurance.png,40x30);>Drum of Endurance]] [[&ref(image/item/Blink Dagger.png,40x30);>Blink Dagger]]
+&br;
+
+''5''
+
+
+
+5番は主にワード、スモーク、ダストにゼニを使うんや。
+ほんで、たまにリジェネアイテム（tango、salve）やらtpを1番2番ヒーローに買うたるんや。
+ようけ試合を見とるとわかるけども、5番のヒーローはブーツとマジックワンド以外になんも装備を持たんっちゅうのもよくあることなんやわ。
+
+ヒーローの例を挙げるならこんな感じやな
+[[&ref(image/Venomancer.png,80x45);>Venomancer]] [[&ref(image/Shadow Demon.png,80x45);>Shadow Demon]] [[&ref(image/Lich.png,80x45);>Lich]] [[&ref(image/CrystalMaiden.png,80x45);>Crystal Maiden]] [[&ref(image/AncientApparition.png,80x45);>Ancient Apparition]]
+
+アイテムはこんな感じや。
+[[&ref(image/item/Observer Ward.png,40x30);>Observer Ward]] [[&ref(image/item/Sentry Ward.png,40x30);>Sentry Ward]] [[&ref(image/item/Urn of Shadows.png,40x30);>Urn of Shadows]] [[&ref(image/item/Medallion of Courage.png,40x30);>Medallion of Courage]]
+
+&br;
+-------------------------------------------------------------------------
+これらはほんまに概要としてまとめただけのもんで、完全オススメガイドちゃうねん。
+ほとんどのヒーローはいろんなポジションを担えるし、ヒーローやロールとポジションは1:1で対応してるわけちゃう。
+しかも、1to5システムの優先順位っちゅうのはゲーム中によう変わるねん。
+たとえば、サンドキングとかタイドハンターがレベル6になったり、その上ブリンクダガーを持ったとしたら、
+優先順位は大幅に落ちてまうんやな。
+最近やとほとんど見いへんけどエンシェントアパリションのミッドレーンもおんなじような感じやな。
+エンシェントアパリションをっささとレベル6にしたら、midの交代やレーンの変更で別にヒーローに儲けさすっちゅうわけや。
+#endregion
+
+&br;
+
+**評価
+#vote2(参考になる[0],参考にならない[0],ちゃんと書け[0],notimestamp)
+
+**コメント
+#pcomment(reply)
